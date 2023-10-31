@@ -1,7 +1,7 @@
 import { ButtonProps } from "./types";
 import { ButtonStyle } from "./style";
 
-export default function Button({ children, type, onClick, href }: ButtonProps) {
+export default function Button({ children, type, onClick, href, background, padding, borderRadius, color, border }: ButtonProps) {
   const buttonType = {
     type: type,
     onClick: onClick,
@@ -12,6 +12,6 @@ export default function Button({ children, type, onClick, href }: ButtonProps) {
   };
 
   return (
-    <ButtonStyle {...(href ? anchorType : buttonType)}>{children}</ButtonStyle>
+    <ButtonStyle {...(href ? anchorType : buttonType)} background={background} padding={padding} borderRadius={borderRadius} color={color} border={border} >{children}</ButtonStyle>
   );
 }

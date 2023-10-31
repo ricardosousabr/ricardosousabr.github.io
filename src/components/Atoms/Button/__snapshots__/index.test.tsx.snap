@@ -2,7 +2,12 @@
 
 exports[`Link renders correctly 1`] = `
 <button
-  className="sc-bdnyFh bGYOTO"
+  background="white"
+  border="none"
+  borderRadius="8px"
+  className="sc-bdnyFh fhxRZV"
+  color="black"
+  padding="8px 35px"
   type="button"
 >
   Click

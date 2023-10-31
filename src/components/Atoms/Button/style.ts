@@ -1,10 +1,10 @@
 import styled from "styled-components";
+import { ButtonProps } from "./types";
 
-export const ButtonStyle = styled.button`
-  background: #9400d3;
-  width: 90px;
-  height: 40px;
-  border-radius: 8px;
-  color: white;
-  border: none;
+export const ButtonStyle = styled.button<ButtonProps>`
+  background: ${(p) => p.background};
+  padding: ${(p) => p.padding};
+  border-radius: ${(p) => p.borderRadius};
+  color: ${(p) => p.color};
+  border: ${(p) => p.border};
 `;
