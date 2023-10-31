@@ -6,4 +6,9 @@ export interface ButtonProps
   href?: string;
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
   type?: "submit" | "reset" | "button";
+  background: string;
+  padding: string;
+  borderRadius: string;
+  color: string;
+  border: string;
 }

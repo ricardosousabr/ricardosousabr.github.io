@@ -3,7 +3,7 @@ import Button from "../src/components/Atoms/Button";
 export default function Home() {
   return (
     <>
-      <Button type="button">Click</Button>
+      <Button padding="8px 35px" background="white" borderRadius="8px" color="black" border="none" type="button">Click</Button>
     </>
   );
 }
