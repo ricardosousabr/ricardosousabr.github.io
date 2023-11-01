@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<p
+  className="sc-bdnyFh hgFkHH"
+  color="aqua"
+  fontSize="16px"
+>
+  Click
+</p>
+`;
