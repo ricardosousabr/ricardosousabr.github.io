@@ -1,9 +1,9 @@
-import Button from "../src/components/Atoms/Button";
+import Menu from "../src/components/Molecules/Menu";
 
 export default function Home() {
   return (
     <>
-      <Button padding="8px 35px" background="white" borderRadius="8px" color="black" border="none" type="button">Click</Button>
+      <Menu />
     </>
   );
 }
