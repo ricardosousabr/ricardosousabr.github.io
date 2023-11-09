@@ -1,97 +1,121 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Link renders correctly 1`] = `
-<ul>
-  <li>
+[
+  <div>
     <button
-      background="transparent"
+      background="black"
       border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
+      borderRadius="10px"
+      className="sc-bdnyFh cGIxk"
+      color="black"
+      onClick={[Function]}
+      padding="20px"
     >
-      About
+      <svg
+        viewBox="0 0 32 32"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"
+        />
+      </svg>
     </button>
-  </li>
-  <li>
-    <button
-      background="transparent"
-      border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
-    >
-      Skils
-    </button>
-  </li>
-  <li>
-    <button
-      background="transparent"
-      border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
-    >
-      Experience
-    </button>
-  </li>
-  <li>
-    <button
-      background="transparent"
-      border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
-    >
-      Education
-    </button>
-  </li>
-  <li>
-    <button
-      background="transparent"
-      border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
-    >
-      Contact
-    </button>
-  </li>
-  <li>
-    <button
-      background="transparent"
-      border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
-    >
-      Switch Theme
-    </button>
-  </li>
-  <li>
-    <button
-      background="transparent"
-      border="none"
-      borderRadius="8px"
-      className="sc-bdnyFh cGPlCA"
-      color="white"
-      padding="8px 35px"
-      type="button"
-    >
-      Download CV
-    </button>
-  </li>
-</ul>
+  </div>,
+  <div>
+    <ul>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          About
+        </button>
+      </li>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          Skils
+        </button>
+      </li>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          Experience
+        </button>
+      </li>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          Education
+        </button>
+      </li>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          Contact
+        </button>
+      </li>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          Switch Theme
+        </button>
+      </li>
+      <li>
+        <button
+          background="transparent"
+          border="none"
+          borderRadius="8px"
+          className="sc-bdnyFh cGPlCA"
+          color="white"
+          padding="8px 35px"
+          type="button"
+        >
+          Download CV
+        </button>
+      </li>
+    </ul>
+  </div>,
+]
 `;
