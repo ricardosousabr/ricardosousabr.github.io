@@ -1,6 +1,7 @@
 import { useState } from "react"
 import List from "./components/List"
 import Button from "../../Atoms/Button";
+import { MenuStyle, BoxMenu, MenuMobile, MenuDesktop } from "./style"
 
 export default function Menu() {
   const menuItens = ["About", "Skils", "Experience", "Education", "Contact", "Switch Theme", "Download CV"];
@@ -12,14 +13,19 @@ export default function Menu() {
 
   return (
     <>
-      <div>
-        <Button onClick={() => displayMenu()} background="black" padding="20px" borderRadius="10px" color="black" border="none"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><path d="M3 4H21V6H3V4ZM3 11H21V13H3V11ZM3 18H21V20H3V18Z"></path></svg></Button>
-      </div>
-      <div>
+      <MenuStyle>
+        <BoxMenu>
+          <Button onClick={() => displayMenu()} background="" padding="10px 20px" borderRadius="10px" color="black" border="none">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="15" height="15" viewBox="0 0 50 50">
+              <path d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"></path>
+            </svg>
+          </Button>
+        </BoxMenu>
         {
-          valueButton ? <List menuItens={menuItens} /> : ""
+          valueButton ? <MenuMobile><List menuItens={menuItens} /></MenuMobile> : ""
         }
-      </div>
+        <MenuDesktop><List menuItens={menuItens} /></MenuDesktop>
+      </MenuStyle>
     </>
   )
 }
