@@ -16,6 +16,12 @@ export const HeaderStyle = styled.div`
     height: 270px;
   }
 
+  @media (min-width: ${screens.large}) {
+    flex-direction: row-reverse;
+    justify-content: space-around;
+
+  }
+
 `
 
 export const BoxText = styled.div`
