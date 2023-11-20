@@ -1,6 +1,6 @@
 import Text from "../../Atoms/Text";
 import ImageProfile from "./components/ImageProfile"
-import { HeaderStyle, BoxText, BoxLocation, BoxSocial } from "./style"
+import { HeaderStyle, BoxInformation,BoxText, BoxLocation, BoxSocial } from "./style"
 
 export default function Header() {
   return (
@@ -8,7 +8,7 @@ export default function Header() {
       <div>
       <ImageProfile />
       </div>
-      <div>
+      <BoxInformation>
         <BoxText>
           <Text color="white" fontSize="30px">Hi, Im Ricardo 👋</Text>
           <Text color="white" fontSize="16px">Im a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.</Text>
@@ -31,7 +31,7 @@ export default function Header() {
             </svg>
           </a>
         </BoxSocial>
-      </div>
+      </BoxInformation>
     </HeaderStyle>
   )
 }
