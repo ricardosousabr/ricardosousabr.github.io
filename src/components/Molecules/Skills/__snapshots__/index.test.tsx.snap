@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<div
+  className="sc-gtsqUy jzYfAE"
+>
+  <div
+    className="sc-dlniIP bxVXXJ"
+  >
+    <p
+      className="sc-bdnyFh iOsQJx"
+      color="white"
+      fontSize="20px"
+    >
+      Skills
+    </p>
+    <p
+      className="sc-bdnyFh iOusbc"
+      color="white"
+      fontSize="16px"
+    >
+      The skills, tools and technologies I am good at:
+    </p>
+  </div>
+</div>
+`;
