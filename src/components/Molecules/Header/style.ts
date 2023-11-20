@@ -6,7 +6,7 @@ export const HeaderStyle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 270px;
+  height: 700px;
 
   @media (min-width: ${screens.small}) {
     flex-direction: column;
