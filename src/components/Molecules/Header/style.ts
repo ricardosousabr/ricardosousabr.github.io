@@ -13,15 +13,28 @@ export const HeaderStyle = styled.div`
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 270px;
+    height: 700px;
   }
 
   @media (min-width: ${screens.large}) {
     flex-direction: row-reverse;
     justify-content: space-around;
+    height: 400px;
 
   }
 
+`
+
+export const BoxInformation = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+
+  @media (min-width: ${screens.large}) {
+    height: 250px;
+
+  }
 `
 
 export const BoxText = styled.div`
