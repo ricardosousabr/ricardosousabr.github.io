@@ -1,0 +1,450 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<div
+  className="sc-gtsqUy dKUpgr"
+>
+  <div
+    className="sc-dlniIP gqtpMm"
+  >
+    <p
+      className="sc-bdnyFh iOsQJx"
+      color="white"
+      fontSize="20px"
+    >
+      Skills
+    </p>
+    <p
+      className="sc-bdnyFh iOusbc"
+      color="white"
+      fontSize="16px"
+    >
+      The skills, tools and technologies I am good at:
+    </p>
+  </div>
+  <div
+    className="sc-hKFymg eGKkIC"
+  >
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FNext.js.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FNext.js.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FNext.js.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Next.js
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FReact.js.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FReact.js.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FReact.js.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        React.js
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FJavaScript.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FJavaScript.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FJavaScript.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        JavaScript
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FStorybook.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FStorybook.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FStorybook.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Storybook
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FFirebase.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FFirebase.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FFirebase.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Firebase
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FStyled-components.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FStyled-components.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FStyled-components.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Styled-components
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FHTML.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FHTML.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FHTML.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        HTML
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FCSS.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FCSS.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FCSS.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        CSS
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FJest.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FJest.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FJest.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Jest
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FSASS.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FSASS.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FSASS.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        SASS
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FCypress.io.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FCypress.io.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FCypress.io.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Cypress.io
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FBootstrap.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FBootstrap.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FBootstrap.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Bootstrap
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FJQuery.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FJQuery.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FJQuery.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        JQuery
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FPrettier.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FPrettier.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FPrettier.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        Prettier
+      </p>
+    </div>
+    <div
+      className="sc-eCAqax fSAXfL"
+    >
+      <img
+        alt=""
+        data-nimg="1"
+        decoding="async"
+        height={40}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="/_next/image?url=%2Fimg%2FESLint.png&w=96&q=75"
+        srcSet="/_next/image?url=%2Fimg%2FESLint.png&w=48&q=75 1x, /_next/image?url=%2Fimg%2FESLint.png&w=96&q=75 2x"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={40}
+      />
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        ESLint
+      </p>
+    </div>
+  </div>
+</div>
+`;
