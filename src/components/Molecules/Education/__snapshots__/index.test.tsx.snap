@@ -2,7 +2,7 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-gtsqUy juLGSM"
+  className="sc-gtsqUy itSBTJ"
 >
   <div
     className="sc-dlniIP gJTMTM"
@@ -23,7 +23,7 @@ exports[`Link renders correctly 1`] = `
     </p>
   </div>
   <div
-    className="sc-hKFymg hpDoqU"
+    className="sc-hKFymg gPXBgN"
   >
     <p
       className="sc-bdnyFh jKeQRk"
