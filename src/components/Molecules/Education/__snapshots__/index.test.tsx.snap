@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<div
+  className="sc-gtsqUy juLGSM"
+>
+  <div
+    className="sc-dlniIP gJTMTM"
+  >
+    <p
+      className="sc-bdnyFh iOsQJx"
+      color="white"
+      fontSize="20px"
+    >
+      Education
+    </p>
+    <p
+      className="sc-bdnyFh iOusbc"
+      color="white"
+      fontSize="16px"
+    >
+      These are my qualifications
+    </p>
+  </div>
+  <div
+    className="sc-hKFymg hpDoqU"
+  >
+    <p
+      className="sc-bdnyFh jKeQRk"
+      color="#66BEF5"
+      fontSize="16px"
+    >
+      Uninassau
+    </p>
+    <p
+      className="sc-bdnyFh iOusbc"
+      color="white"
+      fontSize="16px"
+    >
+      Analise e desenvolvimento de sistemas
+    </p>
+    <p
+      className="sc-bdnyFh iOusbc"
+      color="white"
+      fontSize="16px"
+    >
+      State: Cursando
+    </p>
+  </div>
+</div>
+`;
