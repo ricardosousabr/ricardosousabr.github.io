@@ -2,10 +2,10 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-gtsqUy itSBTJ"
+  className="sc-gtsqUy dVhquj"
 >
   <div
-    className="sc-dlniIP gJTMTM"
+    className="sc-dlniIP jYufVK"
   >
     <p
       className="sc-bdnyFh iOsQJx"
@@ -23,7 +23,7 @@ exports[`Link renders correctly 1`] = `
     </p>
   </div>
   <div
-    className="sc-hKFymg gPXBgN"
+    className="sc-hKFymg kWcCqL"
   >
     <p
       className="sc-bdnyFh jKeQRk"

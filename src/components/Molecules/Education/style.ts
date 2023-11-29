@@ -6,6 +6,9 @@ export const EducationStyle = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 300px;
+  background: #030712;
+  padding-top: 100px;
+
 `
 export const BoxText = styled.div`
   display: flex;
@@ -13,6 +16,7 @@ export const BoxText = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 50px;
+
 `
 
 export const BoxTextInformation = styled.div`
@@ -22,4 +26,5 @@ export const BoxTextInformation = styled.div`
   justify-content: space-between;
   height: 100px;
   padding-bottom: 100px;
+
 `

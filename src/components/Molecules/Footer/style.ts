@@ -6,6 +6,9 @@ export const FooterStyle = styled.div`
   justify-content: space-between;
   flex-direction: column;
   height: 200px;
+  background: #111827;
+  padding-top: 100px;
+
 `
 export const BoxText = styled.div`
   display: flex;
