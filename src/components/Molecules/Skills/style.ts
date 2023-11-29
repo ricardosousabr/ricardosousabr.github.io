@@ -31,7 +31,7 @@ export const BoxSkillSItems = styled.div`
   justify-content: space-between;
 
   @media (min-width: ${screens.large}) {
-    width: 640px;
+    width: 700px;
     height: 300px;
 
   }
