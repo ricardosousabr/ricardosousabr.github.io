@@ -18,6 +18,7 @@ export const BoxText = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 300px;
   height: 80px;
 
@@ -34,6 +35,7 @@ export const BoxContac = styled.div`
   align-items: center;
   width: 340px;
   height: 60px;
+  padding-bottom: 30px;
 
 `
 
