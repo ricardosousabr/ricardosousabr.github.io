@@ -3,8 +3,9 @@ import screens from "../../../tokens/screen";
 
 
 export const MenuStyle = styled.div`
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  background: #030712;
 `;
 
 export const BoxMenu = styled.div`
