@@ -4,8 +4,7 @@ import screens from "../../../tokens/screen";
 export const HeaderStyle = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: 700px;
+  height: 750px;
   background: #030712;
 
   @media (min-width: ${screens.small}) {
@@ -29,20 +28,30 @@ export const BoxInformation = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 250px;
+  height: 300px;
+  padding: 0 16px;
+
+  @media (min-width: ${screens.small}) {
+    width: 500px;
+
+  }
 
   @media (min-width: ${screens.large}) {
-    height: 250px;
 
   }
 `
 
 export const BoxText = styled.div`
-  height: 130px;
+  height: 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 500px;
+  width: 300px;
+
+  @media (min-width: ${screens.small}) {
+    width: 500px;
+
+  }
 
 `
 
@@ -50,11 +59,9 @@ export const BoxLocation = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 500px;
 `
 
 export const BoxSocial = styled.div`
   display: flex;
   flex-direction: row;
-  width: 500px;
 `

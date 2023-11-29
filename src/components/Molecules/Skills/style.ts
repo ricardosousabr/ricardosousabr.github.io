@@ -24,6 +24,13 @@ export const BoxText = styled.div`
   align-items: center;
   height: 100px;
   background: #111827;
+  width: 300px;
+
+  @media (min-width: ${screens.small}) {
+    width: 400px;
+    padding-bottom: 40px;
+
+  }
 
 `
 export const BoxSkillSItems = styled.div`
