@@ -2,7 +2,7 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-eCAqax bkYlCK"
+  className="sc-eCAqax cpGGWJ"
 >
   <div>
     <div
@@ -17,10 +17,10 @@ exports[`Link renders correctly 1`] = `
     </div>
   </div>
   <div
-    className="sc-jSFipO faZhkW"
+    className="sc-jSFipO iaRTKw"
   >
     <div
-      className="sc-gKAaef bSHVGi"
+      className="sc-gKAaef dQZZkj"
     >
       <p
         className="sc-bdnyFh iOsRes"
@@ -38,7 +38,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-iCoHzw cPdoPF"
+      className="sc-iCoHzw hrPBZx"
     >
       <p
         className="sc-bdnyFh iOusbc"
@@ -60,7 +60,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-fujznN bSaeGo"
+      className="sc-fujznN bedDEw"
     >
       <a
         href="https://www.instagram.com/ricardosousa.br/"
