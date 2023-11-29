@@ -1,4 +1,7 @@
 import styled from "styled-components";
+import screens from "../../../tokens/screen";
+
+
 
 export const FooterStyle = styled.div`
   display: flex;
@@ -15,8 +18,13 @@ export const BoxText = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  width: 340px;
+  width: 300px;
   height: 80px;
+
+  @media (min-width: ${screens.small}) {
+    width: 400px;
+
+  }
 `
 
 export const BoxContac = styled.div`
