@@ -2,7 +2,6 @@ import styled from "styled-components";
 import screens from "../../../tokens/screen";
 
 export const HeaderStyle = styled.div`
-  padding: 12px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
