@@ -2,146 +2,65 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-dlniIP dJWRtk"
+  className="sc-dlniIP fPfzoH"
 >
   <div
-    className="sc-hKFymg hgafNd"
+    className="sc-hKFymg fMogKo"
   >
     <button
-      background=""
+      background="transparent"
       border="none"
       borderRadius="10px"
-      className="sc-bdnyFh gpJUq"
+      className="sc-bdnyFh eSbMzv"
       color="black"
       onClick={[Function]}
-      padding="10px 20px"
+      padding="10px"
     >
       <svg
-        height="15"
-        viewBox="0 0 50 50"
-        width="15"
-        x="0px"
+        fill="none"
+        height="32"
+        viewBox="0 0 24 24"
+        width="32"
         xmlns="http://www.w3.org/2000/svg"
-        y="0px"
       >
         <path
-          d="M 3 9 A 1.0001 1.0001 0 1 0 3 11 L 47 11 A 1.0001 1.0001 0 1 0 47 9 L 3 9 z M 3 24 A 1.0001 1.0001 0 1 0 3 26 L 47 26 A 1.0001 1.0001 0 1 0 47 24 L 3 24 z M 3 39 A 1.0001 1.0001 0 1 0 3 41 L 47 41 A 1.0001 1.0001 0 1 0 47 39 L 3 39 z"
+          d="M4 12H20"
+          stroke="#D1D5DB"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+        <path
+          d="M4 6H20"
+          stroke="#D1D5DB"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+        <path
+          d="M4 18H20"
+          stroke="#D1D5DB"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
         />
       </svg>
     </button>
   </div>
   <div
-    className="sc-eCAqax kOCNOp"
-  >
-    <ul
-      className="sc-gtsqUy ejvOfa"
-    >
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          About
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Skils
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Experience
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Education
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Contact
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Switch Theme
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Download CV
-        </button>
-      </li>
-    </ul>
-  </div>
-  <div
     className="sc-jSFipO gLzvjD"
   >
     <ul
-      className="sc-gtsqUy ejvOfa"
+      className="sc-gtsqUy chnRqi"
     >
       <li>
         <button
           background="transparent"
           border="none"
           borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
+          className="sc-bdnyFh lfCnzj"
           color="white"
+          fontSize="16px"
           padding="8px 12px"
           type="button"
         >
@@ -153,8 +72,9 @@ exports[`Link renders correctly 1`] = `
           background="transparent"
           border="none"
           borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
+          className="sc-bdnyFh lfCnzj"
           color="white"
+          fontSize="16px"
           padding="8px 12px"
           type="button"
         >
@@ -166,21 +86,9 @@ exports[`Link renders correctly 1`] = `
           background="transparent"
           border="none"
           borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
+          className="sc-bdnyFh lfCnzj"
           color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Experience
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
+          fontSize="16px"
           padding="8px 12px"
           type="button"
         >
@@ -192,38 +100,13 @@ exports[`Link renders correctly 1`] = `
           background="transparent"
           border="none"
           borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
+          className="sc-bdnyFh lfCnzj"
           color="white"
+          fontSize="16px"
           padding="8px 12px"
           type="button"
         >
           Contact
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Switch Theme
-        </button>
-      </li>
-      <li>
-        <button
-          background="transparent"
-          border="none"
-          borderRadius="8px"
-          className="sc-bdnyFh iHxJiV"
-          color="white"
-          padding="8px 12px"
-          type="button"
-        >
-          Download CV
         </button>
       </li>
     </ul>

@@ -2,15 +2,16 @@
 
 exports[`Link renders correctly 1`] = `
 <ul
-  className="sc-gtsqUy ejvOfa"
+  className="sc-gtsqUy chnRqi"
 >
   <li>
     <button
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
@@ -22,8 +23,9 @@ exports[`Link renders correctly 1`] = `
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
@@ -35,8 +37,9 @@ exports[`Link renders correctly 1`] = `
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
@@ -48,8 +51,9 @@ exports[`Link renders correctly 1`] = `
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
@@ -61,8 +65,9 @@ exports[`Link renders correctly 1`] = `
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
@@ -74,8 +79,9 @@ exports[`Link renders correctly 1`] = `
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
@@ -87,8 +93,9 @@ exports[`Link renders correctly 1`] = `
       background="transparent"
       border="none"
       borderRadius="8px"
-      className="sc-bdnyFh iHxJiV"
+      className="sc-bdnyFh lfCnzj"
       color="white"
+      fontSize="16px"
       padding="8px 12px"
       type="button"
     >
