@@ -8,7 +8,7 @@ export default function List({ menuItens }: menuProps) {
     <BoxList>
       {
         menuItens.map((itens, index) => {
-          return <li key={index}><Button padding="8px 12px" background="transparent" borderRadius="8px" color="white" border="none" type="button">{itens}</Button></li>
+          return <li key={index}><Button fontSize="16px" padding="8px 12px" background="transparent" borderRadius="8px" color="white" border="none" type="button">{itens}</Button></li>
         })
       }
     </BoxList>

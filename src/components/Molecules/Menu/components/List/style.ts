@@ -7,5 +7,6 @@ export const BoxList = styled.ul`
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-size: 40px;
   }
 `
