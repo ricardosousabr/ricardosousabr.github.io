@@ -7,4 +7,6 @@ export const ButtonStyle = styled.button<ButtonProps>`
   border-radius: ${(p) => p.borderRadius};
   color: ${(p) => p.color};
   border: ${(p) => p.border};
+  font-size: ${(p) => p.fontSize};
+  font-family: 'Roboto', sans-serif;
 `;
