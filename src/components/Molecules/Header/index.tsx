@@ -1,10 +1,13 @@
+import { useId } from "react";
 import Text from "../../Atoms/Text";
 import ImageProfile from "./components/ImageProfile"
-import { HeaderStyle, BoxInformation,BoxText, BoxLocation, BoxSocial } from "./style"
+import { HeaderStyle, BoxInformation, BoxText, BoxLocation, BoxSocial } from "./style"
 
 export default function Header() {
+  const headerId = useId();
+
   return (
-    <HeaderStyle>
+    <HeaderStyle id={headerId}>
       <div>
       <ImageProfile />
       </div>
