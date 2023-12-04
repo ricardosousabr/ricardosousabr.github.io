@@ -3,6 +3,7 @@
 exports[`Link renders correctly 1`] = `
 <div
   className="sc-eCAqax cpGGWJ"
+  id=":r0:"
 >
   <div>
     <div
