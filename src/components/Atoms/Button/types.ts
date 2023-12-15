@@ -11,5 +11,6 @@ export interface ButtonProps
   borderRadius: string;
   color: string;
   border: string;
-  fontSize?: string
+  fontSize?: string;
+  textDecoration?: string;
 }
