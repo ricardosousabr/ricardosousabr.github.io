@@ -9,4 +9,5 @@ export const ButtonStyle = styled.button<ButtonProps>`
   border: ${(p) => p.border};
   font-size: ${(p) => p.fontSize};
   font-family: 'Roboto', sans-serif;
+  text-decoration: ${(p) => p.textDecoration};
 `;

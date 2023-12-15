@@ -9,7 +9,7 @@ export const FooterStyle = styled.div`
   justify-content: space-between;
   flex-direction: column;
   height: 200px;
-  background: #111827;
+  background: #030712;
   padding-top: 100px;
 
 `

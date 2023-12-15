@@ -1,6 +1,7 @@
 import Header from "../src/components/Molecules/Header";
 import Skills from "../src/components/Molecules/Skills";
 import Education from "../src/components/Molecules/Education";
+import Project from "../src/components/Molecules/Project";
 import Footer from "../src/components/Molecules/Footer";
 
 export default function Home() {
@@ -27,6 +28,7 @@ export default function Home() {
       <Header />
       <Skills skillItens={skillItens} />
       <Education />
+      <Project />
       <Footer />
     </>
   );
