@@ -8,7 +8,7 @@
     "**/coverage": true
   },
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "eslint.packageManager": "yarn",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
