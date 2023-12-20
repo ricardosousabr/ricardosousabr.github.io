@@ -2,28 +2,34 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-gtsqUy dVhquj"
+  className="sc-gtsqUy dZrVMS"
 >
   <div
-    className="sc-dlniIP jYufVK"
+    className="sc-dlniIP kchgDo"
   >
-    <p
-      className="sc-bdnyFh iOsQJx"
-      color="white"
-      fontSize="20px"
+    <div
+      className="sc-hKFymg gLhFjD"
     >
-      Education
-    </p>
-    <p
-      className="sc-bdnyFh iOusbc"
-      color="white"
-      fontSize="16px"
-    >
-      These are my qualifications
-    </p>
+      <p
+        className="sc-bdnyFh iOsQJx"
+        color="white"
+        fontSize="20px"
+      >
+        Education
+      </p>
+    </div>
+    <div>
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        These are my qualifications
+      </p>
+    </div>
   </div>
   <div
-    className="sc-hKFymg kWcCqL"
+    className="sc-eCAqax dLndRX"
   >
     <p
       className="sc-bdnyFh jKeQRk"
