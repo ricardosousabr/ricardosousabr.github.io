@@ -6,16 +6,18 @@ export const ProjectStyle = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0 20px;
-  height: 1000px;
   justify-content: space-between;
-  padding-top: 100px;
+  padding: 50px 0;
 
   @media (min-width: ${screens.extraLarge}) {
-    height: 600px;
+    padding: 50px 50px;
 
   }
 
+`
+
+export const BoxProject = styled.div`
+  padding-bottom: 30px;
 `
 
 export const BoxText = styled.div`
@@ -24,39 +26,45 @@ export const BoxText = styled.div`
   height: 60px;
   justify-content: space-between;
   flex-direction: column;
-
+  padding-bottom: 50px;
 `
 
-
-export const BoxProject = styled.div`
-  background-image: url("./img/Project-Login-Page.png") no-repeat;
+export const BoxProjects = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 900px;
-  padding-bottom: 50px;
 
   @media (min-width: ${screens.extraLarge}) {
     flex-direction: row;
     justify-content: space-between;
-    height: 600px;
 
   }
 
 `
-export const BoxImageMobile = styled.div`
+export const BoxImage = styled.div`
+  width: 250px;
+  height: 300px;
+  padding-bottom: 10px;
 
+  @media (min-width: ${screens.small}) {
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+
+  }
+
+`
+
+export const BoxImageMobile = styled.div`
     @media (min-width: ${screens.small}) {
     display: none;
-
   }
 
 `
 
 export const BoxImageDesktop = styled.div`
     display: none;
-
     @media (min-width: ${screens.small}) {
     display: block;
 

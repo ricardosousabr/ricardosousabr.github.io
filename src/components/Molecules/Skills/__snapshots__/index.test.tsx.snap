@@ -2,31 +2,37 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-gtsqUy fkLrVa"
+  className="sc-gtsqUy kFIYzo"
 >
   <div
-    className="sc-dlniIP bgBUzv"
-  >
-    <p
-      className="sc-bdnyFh iOsQJx"
-      color="white"
-      fontSize="20px"
-    >
-      Skills
-    </p>
-    <p
-      className="sc-bdnyFh iOusbc"
-      color="white"
-      fontSize="16px"
-    >
-      The skills, tools and technologies I am good at:
-    </p>
-  </div>
-  <div
-    className="sc-hKFymg dROSGb"
+    className="sc-dlniIP jLkzDw"
   >
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-hKFymg fcNlxo"
+    >
+      <p
+        className="sc-bdnyFh iOsQJx"
+        color="white"
+        fontSize="20px"
+      >
+        Skills
+      </p>
+    </div>
+    <div>
+      <p
+        className="sc-bdnyFh iOusbc"
+        color="white"
+        fontSize="16px"
+      >
+        The skills, tools and technologies I am good at:
+      </p>
+    </div>
+  </div>
+  <div
+    className="sc-eCAqax jyPQvG"
+  >
+    <div
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -54,7 +60,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -82,7 +88,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -110,7 +116,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -138,7 +144,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -166,7 +172,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -194,7 +200,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -222,7 +228,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -250,7 +256,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -278,7 +284,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -306,7 +312,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -334,7 +340,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -362,7 +368,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -390,7 +396,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""
@@ -418,7 +424,7 @@ exports[`Link renders correctly 1`] = `
       </p>
     </div>
     <div
-      className="sc-eCAqax vcFBp"
+      className="sc-jSFipO jDRmWn"
     >
       <img
         alt=""

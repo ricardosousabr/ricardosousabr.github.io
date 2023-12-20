@@ -27,7 +27,7 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Meu portiolio"
+        title="Meu portifolio"
         description="Olá esse é o meu portifolio venha, um desenvolvedor front-end apaixonado pela minha profissão. Me esforcei muito para aprender tudo que sei, veja mais sobre mim nesse link."
         openGraph={{
           type: 'website',

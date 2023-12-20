@@ -5,9 +5,8 @@ export const EducationStyle = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  height: 300px;
   background: #030712;
-  padding-top: 100px;
+  padding: 50px 0;
 
 `
 export const BoxText = styled.div`
@@ -15,8 +14,10 @@ export const BoxText = styled.div`
   align-items: center;
   flex-direction: column;
   justify-content: space-between;
-  height: 50px;
-
+  padding: 30px 0;
+`
+export const BoxTitle = styled.div`
+  padding-bottom: 20px;
 `
 
 export const BoxTextInformation = styled.div`
@@ -25,6 +26,5 @@ export const BoxTextInformation = styled.div`
   flex-direction: column;
   justify-content: space-between;
   height: 100px;
-  padding-bottom: 100px;
 
 `

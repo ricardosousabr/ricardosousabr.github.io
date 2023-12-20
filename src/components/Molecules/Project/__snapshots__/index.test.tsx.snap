@@ -2,10 +2,10 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-dlniIP hIZayj"
+  className="sc-dlniIP fVAvyw"
 >
   <div
-    className="sc-hKFymg Slfed"
+    className="sc-eCAqax hqXXFj"
   >
     <p
       className="sc-bdnyFh iOsQJx"
@@ -23,50 +23,56 @@ exports[`Link renders correctly 1`] = `
     </p>
   </div>
   <div
-    className="sc-eCAqax bxkpwm"
+    className="sc-jSFipO krWGij"
   >
-    <div>
+    <div
+      className="sc-hKFymg cPHCZK"
+    >
       <div
-        className="sc-jSFipO eGbuoH"
+        className="sc-gKAaef jiJyez"
       >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={300}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProject-Login-Page-Mobile.png&w=640&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProject-Login-Page-Mobile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProject-Login-Page-Mobile.png&w=640&q=75 2x"
-          style={
-            {
-              "color": "transparent",
+        <div
+          className="sc-iCoHzw brlHiG"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={300}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="/_next/image?url=%2Fimg%2FProject-Login-Page-Mobile.png&w=640&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProject-Login-Page-Mobile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProject-Login-Page-Mobile.png&w=640&q=75 2x"
+            style={
+              {
+                "color": "transparent",
+              }
             }
-          }
-          width={250}
-        />
-      </div>
-      <div
-        className="sc-gKAaef jPVofd"
-      >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={250}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProject-Login-Page-Desktop.png&w=828&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProject-Login-Page-Desktop.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProject-Login-Page-Desktop.png&w=828&q=75 2x"
-          style={
-            {
-              "color": "transparent",
+            width={250}
+          />
+        </div>
+        <div
+          className="sc-fujznN fcjskz"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={250}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="/_next/image?url=%2Fimg%2FProject-Login-Page-Desktop.png&w=828&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProject-Login-Page-Desktop.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProject-Login-Page-Desktop.png&w=828&q=75 2x"
+            style={
+              {
+                "color": "transparent",
+              }
             }
-          }
-          width={400}
-        />
+            width={400}
+          />
+        </div>
       </div>
       <a
         background="transparent"
@@ -82,48 +88,54 @@ exports[`Link renders correctly 1`] = `
         Login page next 
       </a>
     </div>
-    <div>
+    <div
+      className="sc-hKFymg cPHCZK"
+    >
       <div
-        className="sc-jSFipO eGbuoH"
+        className="sc-gKAaef jiJyez"
       >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={300}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProject-Pokedex-Mobile.png&w=640&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProject-Pokedex-Mobile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProject-Pokedex-Mobile.png&w=640&q=75 2x"
-          style={
-            {
-              "color": "transparent",
+        <div
+          className="sc-iCoHzw brlHiG"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={300}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="/_next/image?url=%2Fimg%2FProject-Pokedex-Mobile.png&w=640&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProject-Pokedex-Mobile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProject-Pokedex-Mobile.png&w=640&q=75 2x"
+            style={
+              {
+                "color": "transparent",
+              }
             }
-          }
-          width={250}
-        />
-      </div>
-      <div
-        className="sc-gKAaef jPVofd"
-      >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={250}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProject-Pokedex-Desktop.png&w=828&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProject-Pokedex-Desktop.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProject-Pokedex-Desktop.png&w=828&q=75 2x"
-          style={
-            {
-              "color": "transparent",
+            width={250}
+          />
+        </div>
+        <div
+          className="sc-fujznN fcjskz"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={250}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="/_next/image?url=%2Fimg%2FProject-Pokedex-Desktop.png&w=828&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProject-Pokedex-Desktop.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProject-Pokedex-Desktop.png&w=828&q=75 2x"
+            style={
+              {
+                "color": "transparent",
+              }
             }
-          }
-          width={400}
-        />
+            width={400}
+          />
+        </div>
       </div>
       <a
         background="transparent"
@@ -139,48 +151,54 @@ exports[`Link renders correctly 1`] = `
         Pokedex 
       </a>
     </div>
-    <div>
+    <div
+      className="sc-hKFymg cPHCZK"
+    >
       <div
-        className="sc-jSFipO eGbuoH"
+        className="sc-gKAaef jiJyez"
       >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={300}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProject-Storybook-Mobile.png&w=640&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProject-Storybook-Mobile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProject-Storybook-Mobile.png&w=640&q=75 2x"
-          style={
-            {
-              "color": "transparent",
+        <div
+          className="sc-iCoHzw brlHiG"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={300}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="/_next/image?url=%2Fimg%2FProject-Storybook-Mobile.png&w=640&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProject-Storybook-Mobile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProject-Storybook-Mobile.png&w=640&q=75 2x"
+            style={
+              {
+                "color": "transparent",
+              }
             }
-          }
-          width={250}
-        />
-      </div>
-      <div
-        className="sc-gKAaef jPVofd"
-      >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={250}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProject-Storybook-Desktop.png&w=828&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProject-Storybook-Desktop.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProject-Storybook-Desktop.png&w=828&q=75 2x"
-          style={
-            {
-              "color": "transparent",
+            width={250}
+          />
+        </div>
+        <div
+          className="sc-fujznN fcjskz"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={250}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            src="/_next/image?url=%2Fimg%2FProject-Storybook-Desktop.png&w=828&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProject-Storybook-Desktop.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProject-Storybook-Desktop.png&w=828&q=75 2x"
+            style={
+              {
+                "color": "transparent",
+              }
             }
-          }
-          width={400}
-        />
+            width={400}
+          />
+        </div>
       </div>
       <a
         background="transparent"
