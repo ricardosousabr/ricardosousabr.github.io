@@ -13,6 +13,9 @@ export const BoxWhite = styled.div`
   background: #EAE6FE;
   border-radius: 5px;
   position: absolute;
+  display: flex;
+  align-items: flex-end;
+  overflow: auto;
 `
 
 export const BoxPurple = styled.div`

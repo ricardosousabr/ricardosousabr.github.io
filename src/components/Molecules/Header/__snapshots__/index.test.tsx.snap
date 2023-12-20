@@ -13,8 +13,26 @@ exports[`Link renders correctly 1`] = `
         className="sc-hKFymg jYMKCK"
       />
       <div
-        className="sc-dlniIP gwSWlJ"
-      />
+        className="sc-dlniIP ipYmxT"
+      >
+        <img
+          alt=""
+          data-nimg="1"
+          decoding="async"
+          height={250}
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75"
+          srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 2x"
+          style={
+            {
+              "color": "transparent",
+            }
+          }
+          width={200}
+        />
+      </div>
     </div>
   </div>
   <div
@@ -35,7 +53,7 @@ exports[`Link renders correctly 1`] = `
         color="white"
         fontSize="16px"
       >
-        Im a full stack developer (React.js & Node.js) with a focus on creating (and occasionally designing) exceptional digital experiences that are fast, accessible, visually appealing, and responsive. Even though I have been creating web applications for over 7 years, I still love it as if it was something new.
+        Hello, my name is Ricardo. A front-end developer passionate about my profession. I tried really hard to learn everything I know. I spent a lot of time looking for a profession until I finally found programming and felt comfortable working in web development, so I continue to do my best to do so. I have an excellent learning capacity combined with great effort, a great appreciation for group work, I like to pass on my knowledge to my colleagues so the community grows more and more.
       </p>
     </div>
     <div
@@ -110,5 +128,6 @@ exports[`Link renders correctly 1`] = `
       </a>
     </div>
   </div>
+  <div />
 </div>
 `;
