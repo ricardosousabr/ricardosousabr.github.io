@@ -21,8 +21,9 @@ export const ProjectStyle = styled.div`
 export const BoxText = styled.div`
   display: flex;
   align-items: center;
-  height: 100px;
-  justify-content: center;
+  height: 60px;
+  justify-content: space-between;
+  flex-direction: column;
 
 `
 
