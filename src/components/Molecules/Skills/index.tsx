@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Text from "../../Atoms/Text";
-import { SkillStyle, BoxText, BoxSkillSItems, BoxSkill } from "./style";
+import { SkillStyle, BoxText, BoxTitle, BoxSkillSItems, BoxSkill } from "./style";
 import { skillsProps, } from "./types";
 
 export default function Skills({ skillItens }: skillsProps) {
@@ -25,8 +25,12 @@ export default function Skills({ skillItens }: skillsProps) {
   return (
     <SkillStyle>
       <BoxText>
-        <Text color="white" fontSize="20px">Skills</Text>
-        <Text color="white" fontSize="16px">The skills, tools and technologies I am good at:</Text>
+        <BoxTitle>
+          <Text color="white" fontSize="20px">Skills</Text>
+        </BoxTitle>
+        <div>
+          <Text color="white" fontSize="16px">The skills, tools and technologies I am good at:</Text>
+        </div>
       </BoxText>
       <BoxSkillSItems>
         {

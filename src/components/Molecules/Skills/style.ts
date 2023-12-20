@@ -6,14 +6,8 @@ export const SkillStyle = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 700px;
   background: #111827;
-  padding-top: 100px;
-
-
-  @media (min-width: ${screens.large}) {
-    height: 400px;
-  }
+  padding: 50px 50px;
 
 `;
 
@@ -22,41 +16,35 @@ export const BoxText = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  height: 100px;
-  background: #111827;
-  width: 300px;
-
-  @media (min-width: ${screens.small}) {
-    width: 400px;
-    padding-bottom: 40px;
-
-  }
+  padding-bottom: 30px;
 
 `
+
+export const BoxTitle = styled.div`
+  padding-bottom: 30px;
+
+`
+
 export const BoxSkillSItems = styled.div`
   display: flex;
-  justify-content: center;
+  padding: 0 50px;
   flex-wrap: wrap;
-  height: 800px;
-  width: 300px;
   justify-content: space-between;
-  background: #111827;
 
+    @media (min-width: ${screens.small}) {
+      padding: 0 0px;
 
-  @media (min-width: ${screens.large}) {
-    width: 700px;
-    height: 300px;
+    }
 
-  }
 `
 
 export const BoxSkill = styled.div`
   display: flex;
   flex-direction: column;
+  padding: 20px 20px;
   align-items: center;
-  justify-content: center;
-  width: 78px;
-  height: 96px;
-  background: #111827;
+  width: 50px;
+  height: 50px;
+
 
 `
