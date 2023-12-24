@@ -1,13 +1,18 @@
 import styled from "styled-components";
 import screens from "../../../tokens/screen";
 
+export const Wrapper = styled.div`
+  background: #111827;
+  padding: 50px 0;
+
+`
+
 export const SkillStyle = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background: #111827;
-  padding: 50px 50px;
+  text-align: center;
 
 `;
 
@@ -43,8 +48,8 @@ export const BoxSkill = styled.div`
   flex-direction: column;
   padding: 20px 20px;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
 
 
 `

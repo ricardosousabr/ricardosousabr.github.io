@@ -23,5 +23,5 @@ export const BoxPurple = styled.div`
   height: 285px;
   background: #7E74F1;
   border-radius: 5px;
-  rotate: -10deg;
+  rotate: -6deg;
 `
