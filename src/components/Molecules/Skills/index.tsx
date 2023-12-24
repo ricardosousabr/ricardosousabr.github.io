@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Text from "../../Atoms/Text";
-import { SkillStyle, BoxText, BoxTitle, BoxSkillSItems, BoxSkill } from "./style";
+import Container from "../../Atoms/Container";
+import { Wrapper, SkillStyle, BoxText, BoxTitle, BoxSkillSItems, BoxSkill } from "./styles";
 import { skillsProps, } from "./types";
 
 export default function Skills({ skillItens }: skillsProps) {
@@ -23,27 +24,31 @@ export default function Skills({ skillItens }: skillsProps) {
   ];
 
   return (
-    <SkillStyle>
-      <BoxText>
-        <BoxTitle>
-          <Text color="white" fontSize="20px">Skills</Text>
-        </BoxTitle>
-        <div>
-          <Text color="white" fontSize="16px">The skills, tools and technologies I am good at:</Text>
-        </div>
-      </BoxText>
-      <BoxSkillSItems>
-        {
-          skillItens.map((skillItens, index) => {
-            return (
-              <BoxSkill key={index}>
-                <Image width={40} height={40} src={"/img/"+skillItens+".png"} alt="" />
-                <Text color="white" fontSize="16px">{skillItens}</Text>
-              </BoxSkill>
-            )
-          })
-        }
-     </BoxSkillSItems>
-    </SkillStyle>
+    <Wrapper>
+      <Container>
+        <SkillStyle>
+          <BoxText>
+            <BoxTitle>
+              <Text color="white" fontSize="20px">Skills</Text>
+            </BoxTitle>
+            <div>
+              <Text color="white" fontSize="16px">The skills, tools and technologies I am good at:</Text>
+            </div>
+          </BoxText>
+          <BoxSkillSItems>
+            {
+              skillItens.map((skillItens, index) => {
+                return (
+                  <BoxSkill key={index}>
+                    <Image width={40} height={40} src={"/img/"+skillItens+".png"} alt="" />
+                    <Text color="white" fontSize="16px">{skillItens}</Text>
+                  </BoxSkill>
+                )
+              })
+            }
+        </BoxSkillSItems>
+        </SkillStyle>
+      </Container>
+    </Wrapper>
   )
 }
