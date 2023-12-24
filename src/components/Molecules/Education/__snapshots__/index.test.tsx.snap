@@ -2,56 +2,64 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-gtsqUy dZrVMS"
+  className="sc-dlniIP idUGxZ"
 >
   <div
-    className="sc-dlniIP kchgDo"
+    className="sc-gtsqUy iTcSzc"
   >
     <div
-      className="sc-hKFymg gLhFjD"
+      className="sc-hKFymg dnRInV"
     >
-      <p
-        className="sc-bdnyFh iOsQJx"
-        color="white"
-        fontSize="20px"
+      <div
+        className="sc-eCAqax jSQlhA"
       >
-        Education
-      </p>
-    </div>
-    <div>
-      <p
-        className="sc-bdnyFh iOusbc"
-        color="white"
-        fontSize="16px"
+        <div
+          className="sc-jSFipO fZSsDA"
+        >
+          <p
+            className="sc-bdnyFh iOsQJx"
+            color="white"
+            fontSize="20px"
+          >
+            Education
+          </p>
+        </div>
+        <div>
+          <p
+            className="sc-bdnyFh iOusbc"
+            color="white"
+            fontSize="16px"
+          >
+            These are my qualifications
+          </p>
+        </div>
+      </div>
+      <div
+        className="sc-gKAaef kMCKxX"
       >
-        These are my qualifications
-      </p>
+        <p
+          className="sc-bdnyFh jKeQRk"
+          color="#66BEF5"
+          fontSize="16px"
+        >
+          Uninassau
+        </p>
+        <p
+          className="sc-bdnyFh iOusbc"
+          color="white"
+          fontSize="16px"
+        >
+          Analise e desenvolvimento de sistemas
+        </p>
+        <p
+          className="sc-bdnyFh iOusbc"
+          color="white"
+          fontSize="16px"
+        >
+          State: Cursando
+        </p>
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-eCAqax dLndRX"
-  >
-    <p
-      className="sc-bdnyFh jKeQRk"
-      color="#66BEF5"
-      fontSize="16px"
-    >
-      Uninassau
-    </p>
-    <p
-      className="sc-bdnyFh iOusbc"
-      color="white"
-      fontSize="16px"
-    >
-      Analise e desenvolvimento de sistemas
-    </p>
-    <p
-      className="sc-bdnyFh iOusbc"
-      color="white"
-      fontSize="16px"
-    >
-      State: Cursando
-    </p>
   </div>
 </div>
 `;
