@@ -1,5 +1,12 @@
 import styled from "styled-components";
 import screens from "../../../tokens/screen";
+import { SiteLinksSearchBoxJsonLd } from "next-seo";
+
+export const Wrapper = styled.div`
+  background: #111827;
+  padding: 50px 0;
+
+`
 
 export const ProjectStyle = styled.div`
   background: #111827;
@@ -7,12 +14,7 @@ export const ProjectStyle = styled.div`
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  padding: 50px 0;
-
-  @media (min-width: ${screens.extraLarge}) {
-    padding: 50px 50px;
-
-  }
+  text-align: center;
 
 `
 
@@ -38,18 +40,14 @@ export const BoxProjects = styled.div`
   @media (min-width: ${screens.extraLarge}) {
     flex-direction: row;
     justify-content: space-between;
-
   }
 
 `
+
 export const BoxImage = styled.div`
-  width: 250px;
-  height: 300px;
   padding-bottom: 10px;
 
   @media (min-width: ${screens.small}) {
-    width: 400px;
-    height: 250px;
     border-radius: 10px;
 
   }
