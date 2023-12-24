@@ -1,13 +1,18 @@
 import styled from "styled-components";
 import screens from "../../../tokens/screen";
 
+export const Wrapper = styled.div`
+  background: #030712;
+  padding: 50px 0;
+
+`
+
 export const FooterStyle = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-  background: #030712;
-  padding: 50px 0;
+  text-align: center;
 
 `
 
