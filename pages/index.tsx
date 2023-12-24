@@ -27,13 +27,13 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Meu portifolio"
-        description="Olá esse é o meu portifolio venha, um desenvolvedor front-end apaixonado pela minha profissão. Me esforcei muito para aprender tudo que sei, veja mais sobre mim nesse link."
+        title="Meu Portfolio - Ricardo"
+        description="Olá esse é o meu Portfolio venha, um desenvolvedor front-end apaixonado pela minha profissão. Me esforcei muito para aprender tudo que sei, veja mais sobre mim nesse link."
         openGraph={{
           type: 'website',
           url: 'https://ricardosousabr.github.io/',
           title: 'Acesse o link para conhecer sobre mim',
-          description: "Olá esse é o meu portifolio venha, um desenvolvedor front-end apaixonado pela minha profissão. Me esforcei muito para aprender tudo que sei, veja mais sobre mim nesse link.",
+          description: "Olá esse é o meu Portfolio venha, um desenvolvedor front-end apaixonado pela minha profissão. Me esforcei muito para aprender tudo que sei, veja mais sobre mim nesse link.",
           images: [
             {
               url: '../public/img/Profile-SEO.png',
@@ -43,8 +43,16 @@ export default function Home() {
               type: 'image/png',
             }
           ],
-          siteName: 'Portifolio',
+          siteName: 'Portfolio - Ricardo',
+
         }}
+
+        additionalLinkTags={[
+          {
+            rel: 'icon',
+            href: '/icon/favicon.ico',
+          },
+        ]}
       />
       <Header />
       <Skills skillItens={skillItens} />
