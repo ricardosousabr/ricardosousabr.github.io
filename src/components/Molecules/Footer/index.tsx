@@ -53,7 +53,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <Button href="tel:+00111222333" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">+55 86988278942</Button>
+                <Button href="tel:+5586988278942" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">+55 86988278942</Button>
               </div>
               <div>
                 <Button onClick={() => copyText("+55 86988278942")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">
