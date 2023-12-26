@@ -1,6 +1,6 @@
 import Text from "../../Atoms/Text";
 import Container from "../../Atoms/Container";
-import { EducationStyle, Wrapper, BoxText, BoxTitle, BoxTextInformation } from "./style";
+import { EducationStyle, Wrapper, BoxText, BoxTitle, BoxTextInformation } from "./styles";
 
 export default function Education() {
   return (

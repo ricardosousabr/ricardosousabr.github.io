@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ImageProfileStyle, BoxPurple, BoxWhite } from "./style";
+import { ImageProfileStyle, BoxPurple, BoxWhite } from "./styles";
 
 export default function ImageProfile() {
    return (

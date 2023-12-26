@@ -2,7 +2,7 @@ import Image from "next/image";
 import Text from "../../Atoms/Text";
 import Button from "../../Atoms/Button";
 import Container from "../../Atoms/Container";
-import { Wrapper, ProjectStyle, BoxProjects, BoxProject, BoxImage, BoxImageMobile, BoxImageDesktop, BoxText } from "./style";
+import { Wrapper, ProjectStyle, BoxProjects, BoxProject, BoxImage, BoxImageMobile, BoxImageDesktop, BoxText } from "./styles";
 
 export default function Project() {
   return (

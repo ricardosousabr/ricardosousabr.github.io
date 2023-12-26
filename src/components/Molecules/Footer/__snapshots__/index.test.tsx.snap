@@ -65,13 +65,19 @@ exports[`Link renders correctly 1`] = `
             </svg>
           </div>
           <div>
-            <p
-              className="sc-gtsqUy mqVO"
+            <a
+              background="transparent"
+              border="none"
+              borderRadius="0px"
+              className="sc-bdnyFh krswQp"
               color="white"
               fontSize="16px"
+              href="mailto:ricardo.br.pi@gmail.com"
+              padding="0px"
+              textDecoration="none"
             >
               ricardo.br.pi@gmail.com
-            </p>
+            </a>
           </div>
           <div>
             <button
@@ -130,13 +136,19 @@ exports[`Link renders correctly 1`] = `
             </svg>
           </div>
           <div>
-            <p
-              className="sc-gtsqUy mqVO"
+            <a
+              background="transparent"
+              border="none"
+              borderRadius="0px"
+              className="sc-bdnyFh krswQp"
               color="white"
               fontSize="16px"
+              href="tel:+00111222333"
+              padding="0px"
+              textDecoration="none"
             >
               +55 86988278942
-            </p>
+            </a>
           </div>
           <div>
             <button
