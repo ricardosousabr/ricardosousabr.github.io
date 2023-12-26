@@ -1,7 +1,7 @@
 import Button from "../../Atoms/Button";
 import Text from "../../Atoms/Text";
 import Container from "../../Atoms/Container";
-import { Wrapper, FooterStyle, BoxText, BoxTitle, BoxContac, BoxItem } from "./style";
+import { Wrapper, FooterStyle, BoxText, BoxTitle, BoxContac, BoxItem } from "./styles";
 
 export default function Footer() {
 
@@ -35,7 +35,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <Text color="white" fontSize="16px">ricardo.br.pi@gmail.com</Text>
+                <Button href="mailto:ricardo.br.pi@gmail.com" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">ricardo.br.pi@gmail.com</Button>
               </div>
               <div>
                 <Button onClick={() => copyText("ricardo.br.pi@gmail.com")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">
@@ -53,7 +53,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <Text color="white" fontSize="16px">+55 86988278942</Text>
+                <Button href="tel:+00111222333" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">+55 86988278942</Button>
               </div>
               <div>
                 <Button onClick={() => copyText("+55 86988278942")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">
