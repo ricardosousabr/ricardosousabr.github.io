@@ -1,5 +1,5 @@
 import { ButtonProps } from "./types";
-import { ButtonStyle } from "./style";
+import { ButtonStyle } from "./styles";
 
 export default function Button({ children, type, onClick, href, background, padding, borderRadius, color, border, fontSize, textDecoration }: ButtonProps) {
   const buttonType = {

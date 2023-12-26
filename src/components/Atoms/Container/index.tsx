@@ -1,5 +1,5 @@
 import { ContainerProps } from "./types";
-import { ContainerStyle } from "./style"
+import { ContainerStyle } from "./styles"
 
 export default function Container({children}: ContainerProps) {
   return (
