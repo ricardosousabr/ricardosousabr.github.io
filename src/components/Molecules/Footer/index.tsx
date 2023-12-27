@@ -94,7 +94,7 @@ export default function Footer() {
               </BoxItem>
             </BoxContac>
           </BoxInformation>
-          <ToastContainer autoClose={false} />
+          <ToastContainer />
         </FooterStyle>
       </Container>
     </Wrapper>
