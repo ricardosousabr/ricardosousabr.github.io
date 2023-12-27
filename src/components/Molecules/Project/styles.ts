@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import screens from "../../../tokens/screen";
-import { SiteLinksSearchBoxJsonLd } from "next-seo";
 
 export const Wrapper = styled.div`
   background: #111827;
