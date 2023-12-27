@@ -26,6 +26,12 @@ export const BoxText = styled.div`
 
 `
 
+export const BoxInformation = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+`
+
 export const BoxTitle = styled.div`
   padding-bottom: 30px;
 
@@ -36,7 +42,6 @@ export const BoxContac = styled.div`
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-
 `
 
 export const BoxItem = styled.div`
