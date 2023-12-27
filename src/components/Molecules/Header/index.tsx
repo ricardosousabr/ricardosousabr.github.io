@@ -1,6 +1,6 @@
 import Text from "../../Atoms/Text";
-import ImageProfile from "./components/ImageProfile"
-import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxText, BoxSocial } from "./styles"
+import ImageProfile from "./components/ImageProfile";
+import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxText, BoxSocial } from "./styles";
 import Container from "../../Atoms/Container";
 
 export default function Header() {
