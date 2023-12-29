@@ -15,37 +15,43 @@ export default function Project() {
           </BoxText>
           <BoxProjects>
             <BoxProject>
-              <BoxImage>
-                <BoxImageMobile>
-                  <Image width={250} height={300} src="/img/Project-Login-Page-Mobile.png" alt="" />
-                </BoxImageMobile>
-                <BoxImageDesktop>
-                  <Image width={350} height={250} src="/img/Project-Login-Page-Desktop.png" alt="" />
-                </BoxImageDesktop>
-              </BoxImage>
-              <Button color="white" padding="0px" background="transparent" borderRadius="0px" border="none" fontSize="16px" textDecoration="none" href="https://ricardosousabr.github.io/login-page-next/">Login page next </Button>
+              <Button color="white" padding="0px" background="transparent" borderRadius="0px" border="none" fontSize="16px" textDecoration="none" href="https://ricardosousabr.github.io/login-page-next/">
+                <BoxImage>
+                  <BoxImageMobile>
+                    <Image width={250} height={300} src="/img/Project-Login-Page-Mobile.png" alt="" />
+                  </BoxImageMobile>
+                  <BoxImageDesktop>
+                    <Image width={350} height={250} src="/img/Project-Login-Page-Desktop.png" alt="" />
+                  </BoxImageDesktop>
+                </BoxImage>
+                <Text color="white" fontSize="16px">Login page next</Text>
+              </Button>
             </BoxProject>
             <BoxProject>
-              <BoxImage>
-                <BoxImageMobile>
-                  <Image width={250} height={300} src="/img/Project-Pokedex-Mobile.png" alt="" />
-                </BoxImageMobile>
-                <BoxImageDesktop>
-                  <Image width={350} height={250} src="/img/Project-Pokedex-Desktop.png" alt="" />
-                </BoxImageDesktop>
-              </BoxImage>
-              <Button color="white" padding="0px" background="transparent" borderRadius="0px" border="none" fontSize="16px" textDecoration="none" href="https://ricardosousabr.github.io/login-page-next/">Pokedex </Button>
+              <Button color="white" padding="0px" background="transparent" borderRadius="0px" border="none" fontSize="16px" textDecoration="none" href="https://ricardosousabr.github.io/login-page-next/">
+                <BoxImage>
+                  <BoxImageMobile>
+                    <Image width={250} height={300} src="/img/Project-Pokedex-Mobile.png" alt="" />
+                  </BoxImageMobile>
+                  <BoxImageDesktop>
+                    <Image width={350} height={250} src="/img/Project-Pokedex-Desktop.png" alt="" />
+                  </BoxImageDesktop>
+                </BoxImage>
+                <Text color="white" fontSize="16px">Pokedex</Text>
+              </Button>
             </BoxProject>
             <BoxProject>
-              <BoxImage>
-                <BoxImageMobile>
-                  <Image width={250} height={300} src="/img/Project-Storybook-Mobile.png" alt="" />
-                </BoxImageMobile>
-                <BoxImageDesktop>
-                  <Image width={350} height={250} src="/img/Project-Storybook-Desktop.png" alt="" />
-                </BoxImageDesktop>
-              </BoxImage>
-              <Button color="white" padding="0px" background="transparent" borderRadius="0px" border="none" fontSize="16px" textDecoration="none" href="https://ricardosousabr.github.io/login-page-next/">Storybook </Button>
+              <Button color="white" padding="0px" background="transparent" borderRadius="0px" border="none" fontSize="16px" textDecoration="none" href="https://ricardosousabr.github.io/login-page-next/">
+                <BoxImage>
+                  <BoxImageMobile>
+                    <Image width={250} height={300} src="/img/Project-Storybook-Mobile.png" alt="" />
+                  </BoxImageMobile>
+                  <BoxImageDesktop>
+                    <Image width={350} height={250} src="/img/Project-Storybook-Desktop.png" alt="" />
+                  </BoxImageDesktop>
+                </BoxImage>
+                <Text color="white" fontSize="16px">Storybook</Text>
+              </Button>
             </BoxProject>
           </BoxProjects>
         </ProjectStyle>
