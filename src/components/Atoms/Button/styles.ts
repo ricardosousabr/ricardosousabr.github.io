@@ -8,6 +8,6 @@ export const ButtonStyle = styled.button<ButtonProps>`
   color: ${(p) => p.color};
   border: ${(p) => p.border};
   font-size: ${(p) => p.fontSize};
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Fira Code', monospace;
   text-decoration: ${(p) => p.textDecoration};
 `;
