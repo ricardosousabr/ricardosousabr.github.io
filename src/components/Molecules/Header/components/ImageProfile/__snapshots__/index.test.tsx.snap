@@ -4,29 +4,22 @@ exports[`Link renders correctly 1`] = `
 <div
   className="sc-bdnyFh bXaykT"
 >
-  <div
-    className="sc-dlniIP kuXtUB"
-  />
-  <div
-    className="sc-gtsqUy hvpbxw"
-  >
-    <img
-      alt=""
-      data-nimg="1"
-      decoding="async"
-      height={250}
-      loading="lazy"
-      onError={[Function]}
-      onLoad={[Function]}
-      src="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75"
-      srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=256&q=75 1x, /_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 2x"
-      style={
-        {
-          "color": "transparent",
-        }
+  <img
+    alt=""
+    data-nimg="1"
+    decoding="async"
+    height={500}
+    loading="lazy"
+    onError={[Function]}
+    onLoad={[Function]}
+    src="/_next/image?url=%2Fimg%2FProfile.png&w=828&q=75"
+    srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProfile.png&w=828&q=75 2x"
+    style={
+      {
+        "color": "transparent",
       }
-      width={200}
-    />
-  </div>
+    }
+    width={400}
+  />
 </div>
 `;

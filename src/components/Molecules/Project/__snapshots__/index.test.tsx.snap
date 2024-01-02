@@ -2,13 +2,13 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-hKFymg kUSEzG"
+  className="sc-hKFymg fbGviZ"
 >
   <div
     className="sc-dlniIP iETDvP"
   >
     <div
-      className="sc-eCAqax dXoDOC"
+      className="sc-eCAqax NruM"
     >
       <div
         className="sc-gKAaef cFLQtP"
@@ -38,7 +38,7 @@ exports[`Link renders correctly 1`] = `
             background="transparent"
             border="none"
             borderRadius="0px"
-            className="sc-gtsqUy jKDWbH"
+            className="sc-gtsqUy dSexmb"
             color="white"
             fontSize="16px"
             href="https://ricardosousabr.github.io/login-page-next/"
@@ -107,7 +107,7 @@ exports[`Link renders correctly 1`] = `
             background="transparent"
             border="none"
             borderRadius="0px"
-            className="sc-gtsqUy jKDWbH"
+            className="sc-gtsqUy dSexmb"
             color="white"
             fontSize="16px"
             href="https://ricardosousabr.github.io/login-page-next/"
@@ -176,7 +176,7 @@ exports[`Link renders correctly 1`] = `
             background="transparent"
             border="none"
             borderRadius="0px"
-            className="sc-gtsqUy jKDWbH"
+            className="sc-gtsqUy dSexmb"
             color="white"
             fontSize="16px"
             href="https://ricardosousabr.github.io/login-page-next/"
