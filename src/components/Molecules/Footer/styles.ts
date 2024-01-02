@@ -2,7 +2,7 @@ import styled from "styled-components";
 import screens from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
-  background: #030712;
+  background: #282C33;
   padding: 50px 0;
 
 `

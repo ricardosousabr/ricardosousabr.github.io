@@ -2,13 +2,12 @@ import styled from "styled-components";
 import screens from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
-  background: #111827;
+  background: #282C33;
   padding: 50px 0;
 
 `
 
 export const ProjectStyle = styled.div`
-  background: #111827;
   display: flex;
   flex-direction: column;
   text-align: center;
