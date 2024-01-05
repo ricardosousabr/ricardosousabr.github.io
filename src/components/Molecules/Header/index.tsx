@@ -2,23 +2,25 @@ import Text from "../../Atoms/Text";
 import ImageProfile from "./components/ImageProfile";
 import Button from "../../Atoms/Button";
 import Container from "../../Atoms/Container";
+import Image from "next/image";
+import { IHeaderProps } from "./types";
 import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxProfile, BoxText, BoxButton, BoxMessage } from "./styles";
 
-export default function Header() {
+export default function Header({title, subtitle, motovationalPhrase, image }: IHeaderProps ) {
 
   return (
     <Wrapper>
       <Container>
         <HeaderStyle>
           <BoxInformation>
-            <ImageProfile />
+            <Image width={400} height={500} src={ image } alt="" />
             <BoxProfile>
               <BoxText>
                 <BoxTitle>
-                  <Text color="white" fontSize="30px">Ricardo is a and front-end developer</Text>
+                  <Text color="white" fontSize="30px">{ title }</Text>
                 </BoxTitle>
                 <div>
-                  <Text color="#ABB2BF" fontSize="16px">He crafts responsive websites where technologies meet creativity</Text>
+                  <Text color="#ABB2BF" fontSize="16px">{ subtitle }</Text>
                 </div>
               </BoxText>
               <BoxButton>
@@ -30,7 +32,7 @@ export default function Header() {
           </BoxInformation>
           <div>
             <BoxMessage>
-              <Text color="white" fontSize="24px">“O importante é não parar de questionar; a curiosidade tem sua própria razão de existir” - Albert Einstein</Text>
+              <Text color="white" fontSize="24px">{ motovationalPhrase }</Text>
             </BoxMessage>
           </div>
         </HeaderStyle>
