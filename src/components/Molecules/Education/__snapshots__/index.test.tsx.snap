@@ -21,7 +21,7 @@ exports[`Link renders correctly 1`] = `
             color="white"
             fontSize="20px"
           >
-            Education
+            Educação
           </p>
         </div>
         <div>
@@ -30,7 +30,7 @@ exports[`Link renders correctly 1`] = `
             color="white"
             fontSize="16px"
           >
-            These are my qualifications
+            Estas são minhas qualificações
           </p>
         </div>
       </div>
@@ -56,7 +56,7 @@ exports[`Link renders correctly 1`] = `
           color="white"
           fontSize="16px"
         >
-          State: Cursando
+          Estado: Cursando
         </p>
       </div>
     </div>

@@ -2,53 +2,49 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-eCAqax hlolLg"
+  className="sc-hKFymg fbGviZ"
 >
   <div
-    className="sc-hKFymg hqyWhr"
+    className="sc-dlniIP iETDvP"
   >
     <div
-      className="sc-jSFipO dWNOBs"
+      className="sc-eCAqax iezzEG"
     >
       <div
-        className="sc-gKAaef cGUpuX"
+        className="sc-jSFipO gNiRTJ"
       >
-        <div
-          className="sc-gtsqUy jAAjrt"
-        >
-          <img
-            alt=""
-            data-nimg="1"
-            decoding="async"
-            height={500}
-            loading="lazy"
-            onError={[Function]}
-            onLoad={[Function]}
-            src="/_next/image?url=%2Fimg%2FProfile.png&w=828&q=75"
-            srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProfile.png&w=828&q=75 2x"
-            style={
-              {
-                "color": "transparent",
-              }
+        <img
+          alt=""
+          data-nimg="1"
+          decoding="async"
+          height={500}
+          loading="lazy"
+          onError={[Function]}
+          onLoad={[Function]}
+          src="/_next/image?url=%2Fimg%2FProfile.png&w=828&q=75"
+          srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProfile.png&w=828&q=75 2x"
+          style={
+            {
+              "color": "transparent",
             }
-            width={400}
-          />
-        </div>
+          }
+          width={400}
+        />
         <div
-          className="sc-fujznN GzaRJ"
+          className="sc-iCoHzw hIDLYe"
         >
           <div
-            className="sc-pNWRh dHWnCr"
+            className="sc-fujznN fietcP"
           >
             <div
-              className="sc-iCoHzw hivALq"
+              className="sc-gKAaef kQuwCR"
             >
               <p
                 className="sc-bdnyFh iOsRes"
                 color="white"
                 fontSize="30px"
               >
-                Ricardo is a and front-end developer
+                Ricardo é desenvolvedor front-end
               </p>
             </div>
             <div>
@@ -57,18 +53,18 @@ exports[`Link renders correctly 1`] = `
                 color="#ABB2BF"
                 fontSize="16px"
               >
-                He crafts responsive websites where technologies meet creativity
+                Ele cria sites responsivos onde a tecnologia encontra a criatividade
               </p>
             </div>
           </div>
           <div
-            className="sc-jrsKJM hYoPOs"
+            className="sc-pNWRh sWptQ"
           >
             <button
               background="transparent"
               border="1px solid #bb74ce"
               borderRadius="0px"
-              className="sc-dlniIP eICYzr"
+              className="sc-gtsqUy bnWdeU"
               color="white"
               fontSize="16px"
               padding="8px 16px"
@@ -81,7 +77,7 @@ exports[`Link renders correctly 1`] = `
       </div>
       <div>
         <div
-          className="sc-kEqXeH icSOAh"
+          className="sc-jrsKJM hwKMUQ"
         >
           <p
             className="sc-bdnyFh iOtRRR"

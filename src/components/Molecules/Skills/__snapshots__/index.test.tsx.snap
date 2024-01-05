@@ -21,7 +21,7 @@ exports[`Link renders correctly 1`] = `
             color="white"
             fontSize="20px"
           >
-            Skills
+            Habilidades
           </p>
         </div>
         <div>
@@ -30,7 +30,7 @@ exports[`Link renders correctly 1`] = `
             color="white"
             fontSize="16px"
           >
-            The skills, tools and technologies I am good at:
+            As habilidades, ferramentas e tecnologias nas quais sou bom:
           </p>
         </div>
       </div>
