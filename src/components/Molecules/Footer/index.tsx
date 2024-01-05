@@ -1,13 +1,14 @@
 import Button from "../../Atoms/Button";
 import Text from "../../Atoms/Text";
 import Container from "../../Atoms/Container";
+import { IFooterProps } from "./types"
 import { Wrapper, FooterStyle, BoxText, BoxInformation, BoxTitle, BoxContac, BoxItem } from "./styles";
 import copy from 'copy-to-clipboard';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
 
 
-export default function Footer() {
+export default function Footer({ title, subtitle, email, phone }: IFooterProps) {
 
   function handleButton(information: string) {
     copyText( information)
@@ -47,10 +48,10 @@ export default function Footer() {
         <FooterStyle>
           <BoxText>
             <BoxTitle>
-              <Text color="white" fontSize="20px">Get in touch</Text>
+              <Text color="white" fontSize="20px">{ title }</Text>
             </BoxTitle>
             <div>
-              <Text color="white" fontSize="16px">What’s next? Feel free to reach out to me if you re looking for a developer, have a query, or simply want to connect.</Text>
+              <Text color="white" fontSize="16px">{ subtitle }</Text>
             </div>
           </BoxText>
           <BoxInformation>
@@ -63,7 +64,9 @@ export default function Footer() {
                   </svg>
                 </div>
                 <div>
-                  <Button href="mailto:ricardo.br.pi@gmail.com" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">ricardo.br.pi@gmail.com</Button>
+                  <Button href="mailto:ricardo.br.pi@gmail.com" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">
+                    {email}
+                  </Button>
                 </div>
                 <div>
                   <Button onClick={() => handleButton("ricardo.br.pi@gmail.com")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">
@@ -81,7 +84,9 @@ export default function Footer() {
                   </svg>
                 </div>
                 <div>
-                  <Button href="tel:+5586988278942" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">+55 86988278942</Button>
+                  <Button href="tel:+5586988278942" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">
+                    {phone}
+                  </Button>
                 </div>
                 <div>
                   <Button onClick={() => handleButton("+55 86988278942")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">

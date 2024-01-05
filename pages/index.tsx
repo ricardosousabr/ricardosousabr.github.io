@@ -3,27 +3,16 @@ import Skills from "../src/components/Molecules/Skills";
 import Education from "../src/components/Molecules/Education";
 import Project from "../src/components/Molecules/Project";
 import Footer from "../src/components/Molecules/Footer";
+import locale from "@/src/locales";
 import { NextSeo } from 'next-seo';
 
 export default function Home() {
-  const skillItens = [
-    "Next.js",
-    "React.js",
-    "JavaScript",
-    "Storybook",
-    "Firebase",
-    "Styled-components",
-    "HTML",
-    "CSS",
-    "Jest",
-    "SASS",
-    "Cypress.io",
-    "Bootstrap",
-    "JQuery",
-    "Prettier",
-    "ESLint",
+  const { header } = locale['pt-br'];
+  const { skills } = locale['pt-br'];
+  const { education } = locale['pt-br'];
+  const { project } = locale['pt-br'];
+  const { footer } = locale['pt-br'];
 
-  ];
   return (
     <>
       <NextSeo
@@ -54,11 +43,11 @@ export default function Home() {
           },
         ]}
       />
-      <Header />
-      <Skills skillItens={skillItens} />
-      <Education />
-      <Project />
-      <Footer />
+      <Header {...header} />
+      <Skills {...skills} />
+      <Education {...education} />
+      <Project {...project} />
+      <Footer {...footer} />
     </>
   );
 }

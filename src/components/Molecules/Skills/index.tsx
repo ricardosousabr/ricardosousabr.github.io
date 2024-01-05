@@ -4,24 +4,7 @@ import Container from "../../Atoms/Container";
 import { Wrapper, SkillStyle, BoxText, BoxTitle, BoxSkillSItems, BoxSkill } from "./styles";
 import { skillsProps, } from "./types";
 
-export default function Skills({ skillItens }: skillsProps) {
-  skillItens = [
-    "Next.js",
-    "React.js",
-    "JavaScript",
-    "Storybook",
-    "Firebase",
-    "Styled-components",
-    "HTML",
-    "CSS",
-    "Jest",
-    "SASS",
-    "Cypress.io",
-    "Bootstrap",
-    "JQuery",
-    "Prettier",
-    "ESLint",
-  ];
+export default function Skills({ title, subtitle, technologies }: skillsProps) {
 
   return (
     <Wrapper>
@@ -29,19 +12,19 @@ export default function Skills({ skillItens }: skillsProps) {
         <SkillStyle>
           <BoxText>
             <BoxTitle>
-              <Text color="white" fontSize="20px">Skills</Text>
+              <Text color="white" fontSize="20px">{ title }</Text>
             </BoxTitle>
             <div>
-              <Text color="white" fontSize="16px">The skills, tools and technologies I am good at:</Text>
+              <Text color="white" fontSize="16px">{ subtitle }</Text>
             </div>
           </BoxText>
           <BoxSkillSItems>
             {
-              skillItens.map((skillItens, index) => {
+              technologies.map((technologie, index) => {
                 return (
                   <BoxSkill key={index}>
-                    <Image width={40} height={40} src={"/img/"+skillItens+".png"} alt="" />
-                    <Text color="white" fontSize="16px">{skillItens}</Text>
+                    <Image width={40} height={40} src={technologie.src} alt="" />
+                    <Text color="white" fontSize="16px">{technologie.name}</Text>
                   </BoxSkill>
                 )
               })

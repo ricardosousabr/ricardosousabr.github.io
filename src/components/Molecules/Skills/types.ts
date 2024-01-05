@@ -1,3 +1,8 @@
 export interface skillsProps {
-  skillItens: string[];
+  title: string;
+  subtitle: string;
+  technologies: {
+    name: string;
+    src: string;
+  }[];
 }

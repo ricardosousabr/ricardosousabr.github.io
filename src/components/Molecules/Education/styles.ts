@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  background: #030712;
+  background: #282C33;
   padding: 50px 0;
 
 `

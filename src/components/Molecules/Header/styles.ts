@@ -2,7 +2,7 @@ import styled from "styled-components";
 import screens from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
-  background: #030712;
+  background: #282C33;
   padding: 50px 0;
 
 `
@@ -13,41 +13,53 @@ export const HeaderStyle = styled.div`
   justify-content: center;
   align-items: center;
 
-  @media (min-width: ${screens.large}) {
-    flex-direction: row-reverse;
-  }
-`
-
-export const BoxTitle = styled.div`
-  padding-bottom: 20px;
-`
-
+  `
 export const BoxInformation = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 112px;
 
+  @media (min-width: ${screens.large}) {
+    flex-direction: row-reverse;
+  }
+
+`
+
+export const BoxTitle = styled.div`
+  padding-bottom: 32px;
+`
+
+export const BoxProfile = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 `
 
 export const BoxText = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-bottom: 32px;
+  text-align: flex-start;
 
   @media (min-width: ${screens.small}) {
-    padding: 0 60px;
+    padding: 0 60px 24px 0px;
 
   }
 
 `
 
-export const BoxSocial = styled.div`
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-top: 20px;
+export const BoxButton = styled.div`
+`
+
+export const BoxMessage = styled.div`
+  border: 1px solid #ABB2BF;
+  padding: 32px;
 
   @media (min-width: ${screens.small}) {
-      padding: 20px 60px 0 60px;  }
+  }
 
 `
