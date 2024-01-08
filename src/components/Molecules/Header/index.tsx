@@ -1,10 +1,9 @@
 import Text from "../../Atoms/Text";
-import ImageProfile from "./components/ImageProfile";
 import Button from "../../Atoms/Button";
 import Container from "../../Atoms/Container";
 import Image from "next/image";
 import { IHeaderProps } from "./types";
-import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxProfile, BoxText, BoxButton, BoxMessage } from "./styles";
+import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxProfile, BoxText, BoxButton, BoxMessage, BoxImage } from "./styles";
 
 export default function Header({title, subtitle, motovationalPhrase, image }: IHeaderProps ) {
 
@@ -13,7 +12,9 @@ export default function Header({title, subtitle, motovationalPhrase, image }: IH
       <Container>
         <HeaderStyle>
           <BoxInformation>
-            <Image width={400} height={500} src={ image } alt="" />
+            <BoxImage>
+              <Image width={400} height={500} layout="responsive" src={ image } alt="" />
+            </BoxImage>
             <BoxProfile>
               <BoxText>
                 <BoxTitle>
