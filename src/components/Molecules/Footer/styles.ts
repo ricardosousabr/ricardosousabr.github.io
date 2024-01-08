@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import screens from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
   background: #282C33;
