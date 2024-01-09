@@ -72,6 +72,17 @@ const locale = {
         },
       ],
     },
+    facts: {
+      title: "Minhas curiosidades",
+      factsAbout: [
+        "Eu gosto mais do inverno do que do verão",
+        "Costumo jogar com meus amigos",
+        "Eu gosto de pizza e batata",
+        "Gosto muito de viajar",
+        "Amo estudar",
+        "Apaixonado por leitura"
+      ]
+    },
     education: {
       title: "Educação",
       subtitle: "Estas são minhas qualificações",

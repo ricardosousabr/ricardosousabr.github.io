@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<div
+  className="sc-dlniIP jqyvKd"
+>
+  <div
+    className="sc-gtsqUy iTcSzc"
+  >
+    <div
+      className="sc-hKFymg iESXDq"
+    >
+      <div
+        className="sc-eCAqax hBcfRp"
+      >
+        <p
+          className="sc-bdnyFh iOsQJx"
+          color="white"
+          fontSize="20px"
+        >
+          Minhas curiosidades
+        </p>
+      </div>
+      <div
+        className="sc-jSFipO eELzGe"
+      >
+        <div
+          className="sc-gKAaef iLmREz"
+        >
+          <p
+            className="sc-bdnyFh hmhpbH"
+            color="#ABB2BF"
+            fontSize="16px"
+          >
+            Eu gosto mais do inverno do que do verão
+          </p>
+        </div>
+        <div
+          className="sc-gKAaef iLmREz"
+        >
+          <p
+            className="sc-bdnyFh hmhpbH"
+            color="#ABB2BF"
+            fontSize="16px"
+          >
+            Costumo jogar com meus amigos
+          </p>
+        </div>
+        <div
+          className="sc-gKAaef iLmREz"
+        >
+          <p
+            className="sc-bdnyFh hmhpbH"
+            color="#ABB2BF"
+            fontSize="16px"
+          >
+            Eu gosto de pizza e batata
+          </p>
+        </div>
+        <div
+          className="sc-gKAaef iLmREz"
+        >
+          <p
+            className="sc-bdnyFh hmhpbH"
+            color="#ABB2BF"
+            fontSize="16px"
+          >
+            Gosto muito de viajar
+          </p>
+        </div>
+        <div
+          className="sc-gKAaef iLmREz"
+        >
+          <p
+            className="sc-bdnyFh hmhpbH"
+            color="#ABB2BF"
+            fontSize="16px"
+          >
+            Amo estudar
+          </p>
+        </div>
+        <div
+          className="sc-gKAaef iLmREz"
+        >
+          <p
+            className="sc-bdnyFh hmhpbH"
+            color="#ABB2BF"
+            fontSize="16px"
+          >
+            Apaixonado por leitura
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

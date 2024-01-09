@@ -66,7 +66,4 @@ export const BoxMessage = styled.div`
   border: 1px solid #ABB2BF;
   padding: 32px;
 
-  @media (min-width: ${screensYoga.breakpointSm}) {
-  }
-
 `
