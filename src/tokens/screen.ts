@@ -1,9 +1,11 @@
-const screens = {
-  xSmaall: '350px',
-  small: '576px',
-  medium: '768px',
-  large: '992px',
-  extraLarge: '1200px',
-};
+const screensYoga = {
+  breakpointXs: '360px',
+  breakpointSm: '480px',
+  breakpointMD: '768px',
+  breakpointLg: '1024px',
+  breakpointXl: '1200px',
+  breakpointXxl: '1366px',
+  breakpointXxxl: '1600px',
+}
 
-export default screens;
+export default screensYoga;

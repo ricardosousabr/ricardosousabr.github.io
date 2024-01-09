@@ -18,14 +18,14 @@ exports[`Link renders correctly 1`] = `
           color="white"
           fontSize="20px"
         >
-          Project
+          Projetos
         </p>
         <p
           className="sc-bdnyFh iOusbc"
           color="white"
           fontSize="16px"
         >
-          Look at some of my projects
+          Veja alguns dos meus projetos
         </p>
       </div>
       <div
@@ -46,10 +46,10 @@ exports[`Link renders correctly 1`] = `
             textDecoration="none"
           >
             <div
-              className="sc-fujznN gmeAfE"
+              className="sc-fujznN cXBFoI"
             >
               <div
-                className="sc-pNWRh kqFoPp"
+                className="sc-pNWRh khnRgd"
               >
                 <img
                   alt=""
@@ -70,7 +70,7 @@ exports[`Link renders correctly 1`] = `
                 />
               </div>
               <div
-                className="sc-jrsKJM cQLIgn"
+                className="sc-jrsKJM fsraNH"
               >
                 <img
                   alt=""
@@ -115,10 +115,10 @@ exports[`Link renders correctly 1`] = `
             textDecoration="none"
           >
             <div
-              className="sc-fujznN gmeAfE"
+              className="sc-fujznN cXBFoI"
             >
               <div
-                className="sc-pNWRh kqFoPp"
+                className="sc-pNWRh khnRgd"
               >
                 <img
                   alt=""
@@ -139,7 +139,7 @@ exports[`Link renders correctly 1`] = `
                 />
               </div>
               <div
-                className="sc-jrsKJM cQLIgn"
+                className="sc-jrsKJM fsraNH"
               >
                 <img
                   alt=""
@@ -184,10 +184,10 @@ exports[`Link renders correctly 1`] = `
             textDecoration="none"
           >
             <div
-              className="sc-fujznN gmeAfE"
+              className="sc-fujznN cXBFoI"
             >
               <div
-                className="sc-pNWRh kqFoPp"
+                className="sc-pNWRh khnRgd"
               >
                 <img
                   alt=""
@@ -208,7 +208,7 @@ exports[`Link renders correctly 1`] = `
                 />
               </div>
               <div
-                className="sc-jrsKJM cQLIgn"
+                className="sc-jrsKJM fsraNH"
               >
                 <img
                   alt=""

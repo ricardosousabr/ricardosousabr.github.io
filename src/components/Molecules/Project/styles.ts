@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import screens from "../../../tokens/screen";
+import screensYoga from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
   background: #282C33;
@@ -35,7 +35,7 @@ export const BoxProjects = styled.div`
   align-items: center;
   justify-content: space-between;
 
-  @media (min-width: ${screens.extraLarge}) {
+  @media (min-width: ${screensYoga.breakpointXl}) {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -45,7 +45,7 @@ export const BoxProjects = styled.div`
 export const BoxImage = styled.div`
   padding-bottom: 10px;
 
-  @media (min-width: ${screens.small}) {
+  @media (min-width: ${screensYoga.breakpointSm}) {
     border-radius: 10px;
 
   }
@@ -53,7 +53,7 @@ export const BoxImage = styled.div`
 `
 
 export const BoxImageMobile = styled.div`
-    @media (min-width: ${screens.small}) {
+    @media (min-width: ${screensYoga.breakpointSm}) {
     display: none;
   }
 
@@ -61,7 +61,7 @@ export const BoxImageMobile = styled.div`
 
 export const BoxImageDesktop = styled.div`
     display: none;
-    @media (min-width: ${screens.small}) {
+    @media (min-width: ${screensYoga.breakpointSm}) {
     display: block;
 
     }
