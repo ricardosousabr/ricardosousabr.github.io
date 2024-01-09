@@ -80,8 +80,8 @@ const locale = {
       state: "Estado: Cursando",
     },
     project: {
-      title: "Project",
-      subtitle: "Look at some of my projects",
+      title: "Projetos",
+      subtitle: "Veja alguns dos meus projetos",
       projectsCreated: [
         {
           name: "Login page next",
