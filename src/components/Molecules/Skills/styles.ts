@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import screens from "../../../tokens/screen";
+import screensYoga from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
   background: #282C33;
@@ -32,24 +32,23 @@ export const BoxTitle = styled.div`
 
 export const BoxSkillSItems = styled.div`
   display: flex;
+  align-items: center;
   padding: 0 50px;
   flex-wrap: wrap;
-  justify-content: space-between;
 
-    @media (min-width: ${screens.small}) {
-      padding: 0 0px;
+  @media (min-width: ${screensYoga.breakpointSm}) {
+    padding: 0 0px;
 
-    }
+  }
 
 `
 
 export const BoxSkill = styled.div`
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
-  padding: 20px 20px;
+  padding: 20px 30px;
   align-items: center;
   width: 40px;
-  height: 40px;
-
-
+  height: 80px;
 `
