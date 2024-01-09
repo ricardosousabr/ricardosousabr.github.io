@@ -25,7 +25,6 @@ export const BoxFacts = styled.div`
   display: flex;
   padding: 0 50px;
   flex-wrap: wrap;
-  justify-content: space-between;
 
 `
 export const BoxFact = styled.div`
