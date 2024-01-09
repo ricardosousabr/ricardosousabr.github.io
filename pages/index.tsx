@@ -1,5 +1,6 @@
 import Header from "../src/components/Molecules/Header";
 import Skills from "../src/components/Molecules/Skills";
+import Facts from "../src/components/Molecules/Facts";
 import Education from "../src/components/Molecules/Education";
 import Project from "../src/components/Molecules/Project";
 import Footer from "../src/components/Molecules/Footer";
@@ -9,6 +10,7 @@ import { NextSeo } from 'next-seo';
 export default function Home() {
   const { header } = locale['pt-br'];
   const { skills } = locale['pt-br'];
+  const { facts } = locale['pt-br'];
   const { education } = locale['pt-br'];
   const { project } = locale['pt-br'];
   const { footer } = locale['pt-br'];
@@ -45,6 +47,7 @@ export default function Home() {
       />
       <Header {...header} />
       <Skills {...skills} />
+      <Facts {...facts} />
       <Education {...education} />
       <Project {...project} />
       <Footer {...footer} />
