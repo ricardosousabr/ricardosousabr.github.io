@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import screens from "../../../tokens/screen";
+import screensYoga from "../../../tokens/screen";
 
 export const Wrapper = styled.div`
   background: #282C33;
@@ -21,9 +21,16 @@ export const BoxInformation = styled.div`
   align-items: center;
   padding-bottom: 112px;
 
-  @media (min-width: ${screens.large}) {
+  @media (min-width: ${screensYoga.breakpointLg}) {
+    padding: 0 50px 100px 50px;
     flex-direction: row-reverse;
   }
+
+`
+export const BoxImage = styled.div`
+  padding: 0 32px 32px 32px;
+  flex-wrap: wrap;
+  max-width: 300px;
 
 `
 
@@ -45,7 +52,7 @@ export const BoxText = styled.div`
   padding-bottom: 32px;
   text-align: flex-start;
 
-  @media (min-width: ${screens.small}) {
+  @media (min-width: ${screensYoga.breakpointSm}) {
     padding: 0 60px 24px 0px;
 
   }
@@ -59,7 +66,7 @@ export const BoxMessage = styled.div`
   border: 1px solid #ABB2BF;
   padding: 32px;
 
-  @media (min-width: ${screens.small}) {
+  @media (min-width: ${screensYoga.breakpointSm}) {
   }
 
 `
