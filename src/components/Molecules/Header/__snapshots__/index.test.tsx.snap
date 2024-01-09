@@ -11,33 +11,40 @@ exports[`Link renders correctly 1`] = `
       className="sc-eCAqax iezzEG"
     >
       <div
-        className="sc-jSFipO gNiRTJ"
+        className="sc-jSFipO cXTnMP"
       >
-        <img
-          alt=""
-          data-nimg="1"
-          decoding="async"
-          height={500}
-          loading="lazy"
-          onError={[Function]}
-          onLoad={[Function]}
-          src="/_next/image?url=%2Fimg%2FProfile.png&w=828&q=75"
-          srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 1x, /_next/image?url=%2Fimg%2FProfile.png&w=828&q=75 2x"
-          style={
-            {
-              "color": "transparent",
-            }
-          }
-          width={400}
-        />
         <div
-          className="sc-iCoHzw hIDLYe"
+          className="sc-gKAaef dvHEmT"
+        >
+          <img
+            alt=""
+            data-nimg="1"
+            decoding="async"
+            height={500}
+            loading="lazy"
+            onError={[Function]}
+            onLoad={[Function]}
+            sizes="100vw"
+            src="/_next/image?url=%2Fimg%2FProfile.png&w=3840&q=75"
+            srcSet="/_next/image?url=%2Fimg%2FProfile.png&w=640&q=75 640w, /_next/image?url=%2Fimg%2FProfile.png&w=750&q=75 750w, /_next/image?url=%2Fimg%2FProfile.png&w=828&q=75 828w, /_next/image?url=%2Fimg%2FProfile.png&w=1080&q=75 1080w, /_next/image?url=%2Fimg%2FProfile.png&w=1200&q=75 1200w, /_next/image?url=%2Fimg%2FProfile.png&w=1920&q=75 1920w, /_next/image?url=%2Fimg%2FProfile.png&w=2048&q=75 2048w, /_next/image?url=%2Fimg%2FProfile.png&w=3840&q=75 3840w"
+            style={
+              {
+                "color": "transparent",
+                "height": "auto",
+                "width": "100%",
+              }
+            }
+            width={400}
+          />
+        </div>
+        <div
+          className="sc-fujznN GzaRJ"
         >
           <div
-            className="sc-fujznN fietcP"
+            className="sc-pNWRh ebJcCP"
           >
             <div
-              className="sc-gKAaef kQuwCR"
+              className="sc-iCoHzw hivALq"
             >
               <p
                 className="sc-bdnyFh iOsRes"
@@ -58,7 +65,7 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-pNWRh sWptQ"
+            className="sc-jrsKJM hYoPOs"
           >
             <button
               background="transparent"
@@ -77,7 +84,7 @@ exports[`Link renders correctly 1`] = `
       </div>
       <div>
         <div
-          className="sc-jrsKJM hwKMUQ"
+          className="sc-kEqXeH yfRnt"
         >
           <p
             className="sc-bdnyFh iOtRRR"
