@@ -16,24 +16,21 @@ export const ProjectStyle = styled.div`
 
 `
 
-export const BoxProject = styled.div`
-  padding-bottom: 30px;
+export const BoxTitle = styled.div`
+  text-align: center;
+  padding-bottom: 50px;
+
 `
 
-export const BoxText = styled.div`
-  display: flex;
-  align-items: center;
-  height: 60px;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-bottom: 50px;
+export const Title = styled.div`
+  padding-bottom: 20px;
+
 `
 
 export const BoxProjects = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 
   @media (min-width: ${screensYoga.breakpointXl}) {
     flex-direction: row;
@@ -43,27 +40,50 @@ export const BoxProjects = styled.div`
 `
 
 export const BoxImage = styled.div`
-  padding-bottom: 10px;
-
-  @media (min-width: ${screensYoga.breakpointSm}) {
-    border-radius: 10px;
-
-  }
+  max-width: 350px;
 
 `
 
 export const BoxImageMobile = styled.div`
-    @media (min-width: ${screensYoga.breakpointSm}) {
+    border-bottom: 1px solid #ABB2BF;
+
+  @media (min-width: ${screensYoga.breakpointSm}) {
     display: none;
   }
 
 `
 
 export const BoxImageDesktop = styled.div`
-    display: none;
-    @media (min-width: ${screensYoga.breakpointSm}) {
+  display: none;
+  border-bottom: 1px solid #ABB2BF;
+
+  @media (min-width: ${screensYoga.breakpointSm}) {
     display: block;
+  }
 
-    }
+`
 
+export const BoxTechnologies = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 250px;
+
+  @media (min-width: ${screensYoga.breakpointMD}) {
+    max-width: 350px;
+  }
+
+`
+
+export const BoxTechnologie = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  margin: 0 8px;
+`
+
+export const BoxText = styled.div`
+  border-top: 1px solid #ABB2BF;
+  text-align: center;
+  padding: 10px 0;
 `
