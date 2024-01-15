@@ -22,10 +22,10 @@ exports[`Link renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="sc-jSFipO jwIZXY"
+        className="sc-jSFipO eAhjIz"
       >
         <div
-          className="sc-gKAaef iLmREz"
+          className="sc-gKAaef fAPlIj"
         >
           <p
             className="sc-bdnyFh hmhpbH"
@@ -36,7 +36,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef iLmREz"
+          className="sc-gKAaef fAPlIj"
         >
           <p
             className="sc-bdnyFh hmhpbH"
@@ -47,7 +47,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef iLmREz"
+          className="sc-gKAaef fAPlIj"
         >
           <p
             className="sc-bdnyFh hmhpbH"
@@ -58,7 +58,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef iLmREz"
+          className="sc-gKAaef fAPlIj"
         >
           <p
             className="sc-bdnyFh hmhpbH"
@@ -69,7 +69,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef iLmREz"
+          className="sc-gKAaef fAPlIj"
         >
           <p
             className="sc-bdnyFh hmhpbH"
@@ -80,7 +80,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef iLmREz"
+          className="sc-gKAaef fAPlIj"
         >
           <p
             className="sc-bdnyFh hmhpbH"
