@@ -2,7 +2,7 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-bdnyFh eSGJmu"
+  className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
 >
   Click
 </div>

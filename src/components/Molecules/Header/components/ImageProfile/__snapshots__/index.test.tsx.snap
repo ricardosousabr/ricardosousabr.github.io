@@ -2,7 +2,7 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-bdnyFh bXaykT"
+  className="styles__ImageProfileStyle-sc-1a5zaqw-0 iDvjpB"
 >
   <img
     alt=""

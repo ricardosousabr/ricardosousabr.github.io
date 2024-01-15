@@ -2,22 +2,22 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-dlniIP jqyvKd"
+  className="styles__Wrapper-sc-1i4chxj-0 jXlEAF"
 >
   <div
-    className="sc-gtsqUy iTcSzc"
+    className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
   >
     <div
-      className="sc-hKFymg iESXDq"
+      className="styles__SkillStyle-sc-1i4chxj-1 gXLctI"
     >
       <div
-        className="sc-eCAqax cXfcfV"
+        className="styles__BoxText-sc-1i4chxj-2 whshr"
       >
         <div
-          className="sc-jSFipO evjPyf"
+          className="styles__BoxTitle-sc-1i4chxj-3 fXJfAP"
         >
           <p
-            className="sc-bdnyFh iOsQJx"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
             color="white"
             fontSize="20px"
           >
@@ -26,7 +26,7 @@ exports[`Link renders correctly 1`] = `
         </div>
         <div>
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -35,10 +35,10 @@ exports[`Link renders correctly 1`] = `
         </div>
       </div>
       <div
-        className="sc-gKAaef hffuWi"
+        className="styles__BoxSkillSItems-sc-1i4chxj-4 cvaLkH"
       >
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -58,7 +58,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -66,7 +66,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -86,7 +86,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -94,7 +94,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -114,7 +114,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -122,7 +122,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -142,7 +142,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -150,7 +150,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -170,7 +170,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -178,7 +178,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -198,7 +198,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -206,7 +206,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -226,7 +226,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -234,7 +234,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -254,7 +254,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -262,7 +262,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -282,7 +282,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -290,7 +290,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -310,7 +310,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -318,7 +318,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -338,7 +338,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -346,7 +346,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -366,7 +366,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -374,7 +374,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -394,7 +394,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -402,7 +402,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -422,7 +422,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -430,7 +430,7 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-iCoHzw cmdlIt"
+          className="styles__BoxSkill-sc-1i4chxj-5 jGKZMd"
         >
           <img
             alt=""
@@ -450,7 +450,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
