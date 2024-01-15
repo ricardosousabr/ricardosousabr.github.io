@@ -2,22 +2,22 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-hKFymg fbGviZ"
+  className="styles__Wrapper-sc-17pkfxj-0 fDyyod"
 >
   <div
-    className="sc-dlniIP iETDvP"
+    className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
   >
     <div
-      className="sc-eCAqax NruM"
+      className="styles__ProjectStyle-sc-17pkfxj-1 hXXorj"
     >
       <div
-        className="sc-jSFipO hYfplc"
+        className="styles__BoxTitle-sc-17pkfxj-2 hbMpJb"
       >
         <div
-          className="sc-gKAaef hmQmIQ"
+          className="styles__Title-sc-17pkfxj-3 cvnxrf"
         >
           <p
-            className="sc-bdnyFh iOsQJx"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
             color="white"
             fontSize="20px"
           >
@@ -26,7 +26,7 @@ exports[`Link renders correctly 1`] = `
         </div>
         <div>
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -35,13 +35,13 @@ exports[`Link renders correctly 1`] = `
         </div>
       </div>
       <div
-        className="sc-iCoHzw dKYRwG"
+        className="styles__BoxProjects-sc-17pkfxj-4 iTjINw"
       >
         <a
           background="transparent"
           border="1px solid #ABB2BF"
           borderRadius="0px"
-          className="sc-gtsqUy cUqwaa"
+          className="styles__ButtonStyle-sc-gh3tqj-0 hduyeR"
           color="white"
           fontSize="16px"
           href="https://ricardosousabr.github.io/login-page-next/"
@@ -50,10 +50,10 @@ exports[`Link renders correctly 1`] = `
           textDecoration="none"
         >
           <div
-            className="sc-fujznN jmLYKw"
+            className="styles__BoxImage-sc-17pkfxj-5 htLAnH"
           >
             <div
-              className="sc-pNWRh glcnWK"
+              className="styles__BoxImageMobile-sc-17pkfxj-6 hqZRhO"
             >
               <img
                 alt=""
@@ -74,7 +74,7 @@ exports[`Link renders correctly 1`] = `
               />
             </div>
             <div
-              className="sc-jrsKJM ecFSxm"
+              className="styles__BoxImageDesktop-sc-17pkfxj-7 ApzHb"
             >
               <img
                 alt=""
@@ -96,13 +96,13 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-kEqXeH iizBvI"
+            className="styles__BoxTechnologies-sc-17pkfxj-8 dXHFFG"
           >
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -110,10 +110,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -121,10 +121,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -132,10 +132,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -144,10 +144,10 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-crzpnZ jAGhED"
+            className="styles__BoxText-sc-17pkfxj-10 duAllI"
           >
             <p
-              className="sc-bdnyFh iOusbc"
+              className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
               color="white"
               fontSize="16px"
             >
@@ -159,7 +159,7 @@ exports[`Link renders correctly 1`] = `
           background="transparent"
           border="1px solid #ABB2BF"
           borderRadius="0px"
-          className="sc-gtsqUy cUqwaa"
+          className="styles__ButtonStyle-sc-gh3tqj-0 hduyeR"
           color="white"
           fontSize="16px"
           href="https://ricardosousabr.github.io/pokedex-react/"
@@ -168,10 +168,10 @@ exports[`Link renders correctly 1`] = `
           textDecoration="none"
         >
           <div
-            className="sc-fujznN jmLYKw"
+            className="styles__BoxImage-sc-17pkfxj-5 htLAnH"
           >
             <div
-              className="sc-pNWRh glcnWK"
+              className="styles__BoxImageMobile-sc-17pkfxj-6 hqZRhO"
             >
               <img
                 alt=""
@@ -192,7 +192,7 @@ exports[`Link renders correctly 1`] = `
               />
             </div>
             <div
-              className="sc-jrsKJM ecFSxm"
+              className="styles__BoxImageDesktop-sc-17pkfxj-7 ApzHb"
             >
               <img
                 alt=""
@@ -214,13 +214,13 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-kEqXeH iizBvI"
+            className="styles__BoxTechnologies-sc-17pkfxj-8 dXHFFG"
           >
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -228,10 +228,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -239,10 +239,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -250,10 +250,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -262,10 +262,10 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-crzpnZ jAGhED"
+            className="styles__BoxText-sc-17pkfxj-10 duAllI"
           >
             <p
-              className="sc-bdnyFh iOusbc"
+              className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
               color="white"
               fontSize="16px"
             >
@@ -277,7 +277,7 @@ exports[`Link renders correctly 1`] = `
           background="transparent"
           border="1px solid #ABB2BF"
           borderRadius="0px"
-          className="sc-gtsqUy cUqwaa"
+          className="styles__ButtonStyle-sc-gh3tqj-0 hduyeR"
           color="white"
           fontSize="16px"
           href="https://github.com/ricardosousabr/next-storybook"
@@ -286,10 +286,10 @@ exports[`Link renders correctly 1`] = `
           textDecoration="none"
         >
           <div
-            className="sc-fujznN jmLYKw"
+            className="styles__BoxImage-sc-17pkfxj-5 htLAnH"
           >
             <div
-              className="sc-pNWRh glcnWK"
+              className="styles__BoxImageMobile-sc-17pkfxj-6 hqZRhO"
             >
               <img
                 alt=""
@@ -310,7 +310,7 @@ exports[`Link renders correctly 1`] = `
               />
             </div>
             <div
-              className="sc-jrsKJM ecFSxm"
+              className="styles__BoxImageDesktop-sc-17pkfxj-7 ApzHb"
             >
               <img
                 alt=""
@@ -332,13 +332,13 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-kEqXeH iizBvI"
+            className="styles__BoxTechnologies-sc-17pkfxj-8 dXHFFG"
           >
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -346,10 +346,10 @@ exports[`Link renders correctly 1`] = `
               </p>
             </div>
             <div
-              className="sc-iqAbyq ivqyFl"
+              className="styles__BoxTechnologie-sc-17pkfxj-9 kClkxW"
             >
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -358,10 +358,10 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-crzpnZ jAGhED"
+            className="styles__BoxText-sc-17pkfxj-10 duAllI"
           >
             <p
-              className="sc-bdnyFh iOusbc"
+              className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
               color="white"
               fontSize="16px"
             >

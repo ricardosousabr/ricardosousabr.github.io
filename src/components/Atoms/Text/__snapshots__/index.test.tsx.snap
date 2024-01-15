@@ -2,7 +2,7 @@
 
 exports[`Link renders correctly 1`] = `
 <p
-  className="sc-bdnyFh hgFkHH"
+  className="styles__TextStyle-sc-1u5rut5-0 TEXVn"
   color="aqua"
   fontSize="16px"
 >

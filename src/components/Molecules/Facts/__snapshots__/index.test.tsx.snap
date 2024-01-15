@@ -2,19 +2,19 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-dlniIP jqyvKd"
+  className="styles__Wrapper-sc-1knqim6-0 hRCoMn"
 >
   <div
-    className="sc-gtsqUy iTcSzc"
+    className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
   >
     <div
-      className="sc-hKFymg iESXDq"
+      className="styles__FactsStyle-sc-1knqim6-1 gZVzjk"
     >
       <div
-        className="sc-eCAqax hBcfRp"
+        className="styles__BoxText-sc-1knqim6-2 bmwaBB"
       >
         <p
-          className="sc-bdnyFh iOsQJx"
+          className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
           color="white"
           fontSize="20px"
         >
@@ -22,13 +22,13 @@ exports[`Link renders correctly 1`] = `
         </p>
       </div>
       <div
-        className="sc-jSFipO eAhjIz"
+        className="styles__BoxFacts-sc-1knqim6-3 dXtrAw"
       >
         <div
-          className="sc-gKAaef fAPlIj"
+          className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="sc-bdnyFh hmhpbH"
+            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -36,10 +36,10 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef fAPlIj"
+          className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="sc-bdnyFh hmhpbH"
+            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -47,10 +47,10 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef fAPlIj"
+          className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="sc-bdnyFh hmhpbH"
+            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -58,10 +58,10 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef fAPlIj"
+          className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="sc-bdnyFh hmhpbH"
+            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -69,10 +69,10 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef fAPlIj"
+          className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="sc-bdnyFh hmhpbH"
+            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -80,10 +80,10 @@ exports[`Link renders correctly 1`] = `
           </p>
         </div>
         <div
-          className="sc-gKAaef fAPlIj"
+          className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="sc-bdnyFh hmhpbH"
+            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
             color="#ABB2BF"
             fontSize="16px"
           >

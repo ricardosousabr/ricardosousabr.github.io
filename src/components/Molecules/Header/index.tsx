@@ -13,7 +13,7 @@ export default function Header({title, subtitle, motovationalPhrase, image }: IH
         <HeaderStyle>
           <BoxInformation>
             <BoxImage>
-              <Image width={400} height={500} layout="responsive" src={ image } alt="" />
+              <Image width={400} height={500} layout="responsive" src={ image } alt=""/>
             </BoxImage>
             <BoxProfile>
               <BoxText>
@@ -26,7 +26,7 @@ export default function Header({title, subtitle, motovationalPhrase, image }: IH
               </BoxText>
               <BoxButton>
                 <Button href="" background="transparent" padding="8px 16px" borderRadius="0px" color="white" border="1px solid #bb74ce" fontSize="16px" textDecoration="none">
-                  Contact me!!
+                  Contate-me!!
                 </Button>
               </BoxButton>
             </BoxProfile>

@@ -43,6 +43,12 @@ export default function Home() {
             rel: 'icon',
             href: '/icon/favicon.ico',
           },
+          {
+            rel: 'preload',
+            href: 'https://fonts.googleapis.com/css2?family=Fira+Code&family=Oswald&family=Preahvihear&family=Roboto&display=swap',
+            as: 'font',
+            type: 'font/woff2',
+          },
         ]}
       />
       <Header {...header} />
@@ -52,5 +58,5 @@ export default function Home() {
       <Project {...project} />
       <Footer {...footer} />
     </>
-  );
+  )
 }

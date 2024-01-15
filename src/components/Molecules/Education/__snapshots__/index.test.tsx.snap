@@ -2,22 +2,22 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-dlniIP jqyvKd"
+  className="styles__Wrapper-sc-fknpiw-0 pkLsN"
 >
   <div
-    className="sc-gtsqUy iTcSzc"
+    className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
   >
     <div
-      className="sc-hKFymg dnRInV"
+      className="styles__EducationStyle-sc-fknpiw-1 lKgKA"
     >
       <div
-        className="sc-eCAqax jSQlhA"
+        className="styles__BoxText-sc-fknpiw-2 hZmtsi"
       >
         <div
-          className="sc-jSFipO fZSsDA"
+          className="styles__BoxTitle-sc-fknpiw-3 TYFoq"
         >
           <p
-            className="sc-bdnyFh iOsQJx"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
             color="white"
             fontSize="20px"
           >
@@ -26,7 +26,7 @@ exports[`Link renders correctly 1`] = `
         </div>
         <div>
           <p
-            className="sc-bdnyFh iOusbc"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
             color="white"
             fontSize="16px"
           >
@@ -35,24 +35,24 @@ exports[`Link renders correctly 1`] = `
         </div>
       </div>
       <div
-        className="sc-gKAaef kMCKxX"
+        className="styles__BoxTextInformation-sc-fknpiw-4 gRTDFf"
       >
         <p
-          className="sc-bdnyFh jKeQRk"
+          className="styles__TextStyle-sc-1u5rut5-0 TnBdo"
           color="#66BEF5"
           fontSize="16px"
         >
           Uninassau
         </p>
         <p
-          className="sc-bdnyFh iOusbc"
+          className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
           color="white"
           fontSize="16px"
         >
           Analise e desenvolvimento de sistemas
         </p>
         <p
-          className="sc-bdnyFh iOusbc"
+          className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
           color="white"
           fontSize="16px"
         >

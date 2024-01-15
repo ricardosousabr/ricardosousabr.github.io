@@ -2,19 +2,19 @@
 
 exports[`Link renders correctly 1`] = `
 <div
-  className="sc-hKFymg fbGviZ"
+  className="styles__Wrapper-sc-1gkpokt-0 iPghdd"
 >
   <div
-    className="sc-dlniIP iETDvP"
+    className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
   >
     <div
-      className="sc-eCAqax iezzEG"
+      className="styles__HeaderStyle-sc-1gkpokt-1 hVXzix"
     >
       <div
-        className="sc-jSFipO cXTnMP"
+        className="styles__BoxInformation-sc-1gkpokt-2 anMLM"
       >
         <div
-          className="sc-gKAaef dvHEmT"
+          className="styles__BoxImage-sc-1gkpokt-3 kcwYoz"
         >
           <img
             alt=""
@@ -38,16 +38,16 @@ exports[`Link renders correctly 1`] = `
           />
         </div>
         <div
-          className="sc-fujznN GzaRJ"
+          className="styles__BoxProfile-sc-1gkpokt-5 ofyVy"
         >
           <div
-            className="sc-pNWRh ebJcCP"
+            className="styles__BoxText-sc-1gkpokt-6 dOyEVH"
           >
             <div
-              className="sc-iCoHzw hivALq"
+              className="styles__BoxTitle-sc-1gkpokt-4 kFefjO"
             >
               <p
-                className="sc-bdnyFh iOsRes"
+                className="styles__TextStyle-sc-1u5rut5-0 fGFLFs"
                 color="white"
                 fontSize="30px"
               >
@@ -56,7 +56,7 @@ exports[`Link renders correctly 1`] = `
             </div>
             <div>
               <p
-                className="sc-bdnyFh hmhpbH"
+                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
                 color="#ABB2BF"
                 fontSize="16px"
               >
@@ -65,29 +65,29 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="sc-jrsKJM hYoPOs"
+            className="styles__BoxButton-sc-1gkpokt-7"
           >
             <button
               background="transparent"
               border="1px solid #bb74ce"
               borderRadius="0px"
-              className="sc-gtsqUy CBQBJ"
+              className="styles__ButtonStyle-sc-gh3tqj-0 hjroVy"
               color="white"
               fontSize="16px"
               padding="8px 16px"
               textDecoration="none"
             >
-              Contact me!!
+              Contate-me!!
             </button>
           </div>
         </div>
       </div>
       <div>
         <div
-          className="sc-kEqXeH dLDsvD"
+          className="styles__BoxMessage-sc-1gkpokt-8 kTZzBi"
         >
           <p
-            className="sc-bdnyFh iOtRRR"
+            className="styles__TextStyle-sc-1u5rut5-0 fGFJXN"
             color="white"
             fontSize="24px"
           >

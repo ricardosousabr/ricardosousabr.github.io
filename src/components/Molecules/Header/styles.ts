@@ -32,6 +32,12 @@ export const BoxImage = styled.div`
   flex-wrap: wrap;
   max-width: 300px;
 
+  @media (min-width: ${screensYoga.breakpointMD}) {
+    width: 400px;
+    height: 500px;
+  }
+
+
 `
 
 export const BoxTitle = styled.div`
