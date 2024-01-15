@@ -23,13 +23,12 @@ export const BoxText = styled.div`
 `
 export const BoxFacts = styled.div`
   display: flex;
-  padding: 0 50px;
   flex-wrap: wrap;
 
 `
 export const BoxFact = styled.div`
-  border: 1px solid #ABB2BF;
   padding: 10px;
+  border: 1px solid #ABB2BF;
   margin: 8px;
 
 `

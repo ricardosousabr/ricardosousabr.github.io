@@ -3,7 +3,9 @@ export interface IProjectProps {
   subtitle: string;
   projectsCreated: {
     name: string;
+    link: string;
     srcMobile: string;
     srcDesktop: string;
+    technologies: string[];
   }[];
 }

@@ -96,18 +96,26 @@ const locale = {
       projectsCreated: [
         {
           name: "Login page next",
+          link: "https://ricardosousabr.github.io/login-page-next/",
           srcMobile: "/img/Project-Login-Page-Mobile.png",
           srcDesktop: "/img/Project-Login-Page-Desktop.png",
+          technologies: ["JavaScript", "Next", "Styled-components", "Jest"],
         },
         {
           name: "Pokedex",
+          link: "https://ricardosousabr.github.io/pokedex-react/",
           srcMobile: "/img/Project-Pokedex-Mobile.png",
           srcDesktop: "/img/Project-Pokedex-Desktop.png",
+          technologies: ["JavaScript", "Next", "Styled-components", "Jest"],
+
         },
         {
           name: "Storybook",
+          link: "https://github.com/ricardosousabr/next-storybook",
           srcMobile: "/img/Project-Storybook-Mobile.png",
           srcDesktop: "/img/Project-Storybook-Desktop.png",
+          technologies: ["Storybook", "Next"],
+
         }
       ]
     },

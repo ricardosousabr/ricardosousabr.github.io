@@ -10,4 +10,5 @@ export const ButtonStyle = styled.button<ButtonProps>`
   font-size: ${(p) => p.fontSize};
   font-family: 'Fira Code', monospace;
   text-decoration: ${(p) => p.textDecoration};
+  margin: ${(p) => p.margin};
 `;
