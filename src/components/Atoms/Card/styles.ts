@@ -1,44 +1,23 @@
 import styled from "styled-components";
 import screensYoga from "../../../tokens/screen";
 
-export const Wrapper = styled.div`
-  background: #282C33;
-  padding: 50px 0;
-
-`
-
-export const ProjectStyle = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  justify-content: space-between;
-  text-align: center;
-
-`
-
-export const BoxTitle = styled.div`
-  text-align: center;
-  padding-bottom: 50px;
-
-`
-
-export const Title = styled.div`
-  padding-bottom: 20px;
-
-`
-
 export const BoxProjects = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   padding-bottom: 40px;
 
   @media (min-width: ${screensYoga.breakpointXl}) {
-    flex-direction: row;
     justify-content: space-between;
   }
 
 `
+export const Project = styled.a`
+    border: 1px solid #ABB2BF;
+    margin: 20px;
+    text-decoration: none;
+`
+
 
 export const BoxImage = styled.div`
   max-width: 350px;
@@ -63,12 +42,13 @@ export const BoxImageDesktop = styled.div`
   }
 
 `
-
 export const BoxTechnologies = styled.div`
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   max-width: 250px;
+  height: 72px;
+  align-content: flex-start;
 
   @media (min-width: ${screensYoga.breakpointMD}) {
     max-width: 350px;
@@ -87,7 +67,4 @@ export const BoxText = styled.div`
   border-top: 1px solid #ABB2BF;
   text-align: center;
   padding: 10px 0;
-`
-
-export const BoxButton = styled.div`
 `

@@ -2,7 +2,7 @@ import Button from "../../Atoms/Button";
 import Text from "../../Atoms/Text";
 import Container from "../../Atoms/Container";
 import { IFooterProps } from "./types"
-import { Wrapper, FooterStyle, BoxText, BoxInformation, BoxTitle, BoxContac, BoxItem } from "./styles";
+import { Wrapper, FooterStyle, BoxText, BoxInformation, BoxTitle, BoxContac, BoxItem, LinkContact, ButtonCopy } from "./styles";
 import copy from 'copy-to-clipboard';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
@@ -16,7 +16,7 @@ export default function Footer({ title, subtitle, email, phone }: IFooterProps) 
 
   function copySuccessNotification(information: string) {
 
-    toast.success("Copied: " + information, {
+    toast.success("Copiado: " + information, {
       position: toast.POSITION.BOTTOM_RIGHT
     });
   }
@@ -43,7 +43,7 @@ export default function Footer({ title, subtitle, email, phone }: IFooterProps) 
   }
 
   return (
-    <Wrapper>
+    <Wrapper id="contatos">
       <Container>
         <FooterStyle>
           <BoxText>
@@ -64,17 +64,15 @@ export default function Footer({ title, subtitle, email, phone }: IFooterProps) 
                   </svg>
                 </div>
                 <div>
-                  <Button href="mailto:ricardo.br.pi@gmail.com" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">
-                    {email}
-                  </Button>
+                  <LinkContact href="mailto:ricardo.br.pi@gmail.com">{email}</LinkContact>
                 </div>
                 <div>
-                  <Button onClick={() => handleButton("ricardo.br.pi@gmail.com")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">
+                  <ButtonCopy onClick={() => handleButton("ricardo.br.pi@gmail.com")} type="button">
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20.5 8H10.5C9.39543 8 8.5 8.89543 8.5 10V20C8.5 21.1046 9.39543 22 10.5 22H20.5C21.6046 22 22.5 21.1046 22.5 20V10C22.5 8.89543 21.6046 8 20.5 8Z" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M4.5 16C3.4 16 2.5 15.1 2.5 14V4C2.5 2.9 3.4 2 4.5 2H14.5C15.6 2 16.5 2.9 16.5 4" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                  </Button>
+                  </ButtonCopy>
                 </div>
               </BoxItem>
               <BoxItem>
@@ -84,17 +82,15 @@ export default function Footer({ title, subtitle, email, phone }: IFooterProps) 
                   </svg>
                 </div>
                 <div>
-                  <Button href="tel:+5586988278942" background="transparent" padding="0px" borderRadius="0px" color="white" border="none" fontSize="16px" textDecoration="none">
-                    {phone}
-                  </Button>
+                  <LinkContact href="tel:+5586988278942">{phone}</LinkContact>
                 </div>
                 <div>
-                  <Button onClick={() => handleButton("+55 86988278942")} type="button" background="transparent" padding="0px" borderRadius="0px" color="" border="none">
+                  <ButtonCopy onClick={() => handleButton("+55 86988278942")} type="button">
                     <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <path d="M20.5 8H10.5C9.39543 8 8.5 8.89543 8.5 10V20C8.5 21.1046 9.39543 22 10.5 22H20.5C21.6046 22 22.5 21.1046 22.5 20V10C22.5 8.89543 21.6046 8 20.5 8Z" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                       <path d="M4.5 16C3.4 16 2.5 15.1 2.5 14V4C2.5 2.9 3.4 2 4.5 2H14.5C15.6 2 16.5 2.9 16.5 4" stroke="#D1D5DB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                  </Button>
+                  </ButtonCopy>
                 </div>
               </BoxItem>
             </BoxContac>

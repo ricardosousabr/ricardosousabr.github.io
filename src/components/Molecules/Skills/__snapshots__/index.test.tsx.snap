@@ -17,7 +17,7 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxTitle-sc-1i4chxj-3 fXJfAP"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
+            className="styles__TextStyle-sc-1u5rut5-0 bmNqMK"
             color="white"
             fontSize="20px"
           >
@@ -26,7 +26,7 @@ exports[`Link renders correctly 1`] = `
         </div>
         <div>
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -58,7 +58,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -86,7 +86,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -114,7 +114,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -142,7 +142,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -170,7 +170,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -198,7 +198,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -226,7 +226,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -254,7 +254,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -282,7 +282,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -310,7 +310,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -338,7 +338,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -366,7 +366,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -394,7 +394,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -422,7 +422,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -450,7 +450,7 @@ exports[`Link renders correctly 1`] = `
             width={40}
           />
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >

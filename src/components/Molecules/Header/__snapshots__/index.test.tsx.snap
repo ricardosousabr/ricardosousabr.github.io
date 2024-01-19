@@ -47,38 +47,32 @@ exports[`Link renders correctly 1`] = `
               className="styles__BoxTitle-sc-1gkpokt-4 kFefjO"
             >
               <p
-                className="styles__TextStyle-sc-1u5rut5-0 fGFLFs"
+                className="styles__TextStyle-sc-1u5rut5-0 jgMeGD"
                 color="white"
                 fontSize="30px"
               >
-                Ricardo é desenvolvedor front-end
+                Olá meu nome é Ricardo sou um desenvolvedor front-end
               </p>
             </div>
             <div>
               <p
-                className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+                className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
                 color="#ABB2BF"
                 fontSize="16px"
               >
-                Ele cria sites responsivos onde a tecnologia encontra a criatividade
+                Crio sites responsivos onde a tecnologia encontra a criatividade
               </p>
             </div>
           </div>
           <div
             className="styles__BoxButton-sc-1gkpokt-7"
           >
-            <button
-              background="transparent"
-              border="1px solid #bb74ce"
-              borderRadius="0px"
-              className="styles__ButtonStyle-sc-gh3tqj-0 hjroVy"
-              color="white"
-              fontSize="16px"
-              padding="8px 16px"
-              textDecoration="none"
+            <a
+              className="styles__ButtonStyle-sc-gh3tqj-0 fdlOGi"
+              href="#contatos"
             >
               Contate-me!!
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -87,7 +81,7 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxMessage-sc-1gkpokt-8 kTZzBi"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJXN"
+            className="styles__TextStyle-sc-1u5rut5-0 dyvdYa"
             color="white"
             fontSize="24px"
           >

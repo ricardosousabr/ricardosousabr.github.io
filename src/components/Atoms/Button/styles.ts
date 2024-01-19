@@ -2,13 +2,15 @@ import styled from "styled-components";
 import { ButtonProps } from "./types";
 
 export const ButtonStyle = styled.button<ButtonProps>`
-  background: ${(p) => p.background};
-  padding: ${(p) => p.padding};
-  border-radius: ${(p) => p.borderRadius};
-  color: ${(p) => p.color};
-  border: ${(p) => p.border};
-  font-size: ${(p) => p.fontSize};
+  background: transparent;
+  padding: 8px 16px;
+  color: white;
+  border: 1px solid #bb74ce;
+  font-size: 16px;
   font-family: 'Fira Code', monospace;
-  text-decoration: ${(p) => p.textDecoration};
-  margin: ${(p) => p.margin};
+  text-decoration: none ;
+
+  &:hover {
+    cursor: pointer;
+  }
 `;
