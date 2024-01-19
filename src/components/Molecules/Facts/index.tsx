@@ -2,6 +2,7 @@ import Text from "../../Atoms/Text";
 import Container from "../../Atoms/Container";
 import { IFacts } from "./types";
 import { Wrapper, FactsStyle, BoxText, BoxFacts, BoxFact } from "./styles";
+import Title from "../../Atoms/Title";
 
 export default function Facts({title, factsAbout}: IFacts ) {
   return (
@@ -9,7 +10,7 @@ export default function Facts({title, factsAbout}: IFacts ) {
       <Container>
         <FactsStyle>
           <BoxText>
-            <Text color="white" fontSize="20px">{ title }</Text>
+            <Title >{ title }</Title>
           </BoxText>
             <BoxFacts >
             {

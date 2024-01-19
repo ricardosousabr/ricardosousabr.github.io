@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Link renders correctly 1`] = `
-<button
-  className="styles__ButtonStyle-sc-gh3tqj-0 fdlOGi"
+<h2
+  className="styles__TextStyle-sc-mjcf9p-0 hEVqIA"
 >
   Click
-</button>
+</h2>
 `;

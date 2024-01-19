@@ -1,4 +1,5 @@
 import Text from "../../Atoms/Text";
+import Title from "../../Atoms/Title";
 import Container from "../../Atoms/Container";
 import { IEducationProps } from "./types";
 import { EducationStyle, Wrapper, BoxText, BoxTitle, BoxTextInformation } from "./styles";
@@ -10,7 +11,7 @@ export default function Education({ title, subtitle, faculty, course, state }:IE
         <EducationStyle>
           <BoxText>
             <BoxTitle>
-              <Text color="white" fontSize="20px">{ title }</Text>
+              <Title>{ title }</Title>
             </BoxTitle>
             <div>
               <Text color="white" fontSize="16px">{ subtitle }</Text>

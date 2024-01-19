@@ -1,7 +1,7 @@
 import renderer from "react-test-renderer";
-import Button from "./index";
+import Title from "./index";
 
 test("Link renders correctly", () => {
-  const tree = renderer.create(<Button>Click</Button>).toJSON();
+  const tree = renderer.create(<Title>Click</Title>).toJSON();
   expect(tree).toMatchSnapshot();
 });

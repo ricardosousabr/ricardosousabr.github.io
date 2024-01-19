@@ -17,13 +17,11 @@ exports[`Link renders correctly 1`] = `
         <div
           className="styles__BoxTitle-sc-mg6ojk-4 csa-df"
         >
-          <p
-            className="styles__TextStyle-sc-1u5rut5-0 bmNqMK"
-            color="white"
-            fontSize="20px"
+          <h2
+            className="styles__TextStyle-sc-mjcf9p-0 hEVqIA"
           >
             Entrar em contato
-          </p>
+          </h2>
         </div>
         <div>
           <p

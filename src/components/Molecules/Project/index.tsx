@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Text from "../../Atoms/Text";
 import Button from "../../Atoms/Button";
 import Container from "../../Atoms/Container";

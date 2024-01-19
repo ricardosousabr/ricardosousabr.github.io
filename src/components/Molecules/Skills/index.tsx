@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Text from "../../Atoms/Text";
+import Title from "../../Atoms/Title";
 import Container from "../../Atoms/Container";
 import { Wrapper, SkillStyle, BoxText, BoxTitle, BoxSkillSItems, BoxSkill } from "./styles";
 import { skillsProps, } from "./types";
@@ -12,7 +13,7 @@ export default function Skills({ title, subtitle, technologies }: skillsProps) {
         <SkillStyle>
           <BoxText>
             <BoxTitle>
-              <Text color="white" fontSize="20px">{ title }</Text>
+              <Title>{ title }</Title>
             </BoxTitle>
             <div>
               <Text color="white" fontSize="16px">{ subtitle }</Text>
