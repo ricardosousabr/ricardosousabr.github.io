@@ -31,6 +31,7 @@ export const BoxProjects = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 40px;
 
   @media (min-width: ${screensYoga.breakpointXl}) {
     flex-direction: row;
@@ -86,4 +87,7 @@ export const BoxText = styled.div`
   border-top: 1px solid #ABB2BF;
   text-align: center;
   padding: 10px 0;
+`
+
+export const BoxButton = styled.div`
 `
