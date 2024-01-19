@@ -1,8 +1,8 @@
 const locale = {
   "pt-br": {
     header: {
-      title: "Ricardo é desenvolvedor front-end",
-      subtitle: "Ele cria sites responsivos onde a tecnologia encontra a criatividade",
+      title: "Olá meu nome é Ricardo sou um desenvolvedor front-end",
+      subtitle: "Crio sites responsivos onde a tecnologia encontra a criatividade",
       motovationalPhrase: "“O importante é não parar de questionar; a curiosidade tem sua própria razão de existir” - Albert Einstein",
       image: "/img/Profile.png",
     },
@@ -75,10 +75,10 @@ const locale = {
     facts: {
       title: "Minhas curiosidades",
       factsAbout: [
-        "Eu gosto mais do inverno do que do verão",
+        "Gosto mais do inverno do que do verão",
         "Costumo jogar com meus amigos",
-        "Eu gosto de pizza e batata",
-        "Gosto muito de viajar",
+        "Minha comida preferida é pizza e batata frita",
+        "Meu maior sonho é de viajar pelo mundo todo",
         "Amo estudar",
         "Apaixonado por leitura"
       ]
@@ -123,7 +123,7 @@ const locale = {
       title: "Entrar em contato",
       subtitle: "Qual é o próximo? Sinta-se à vontade para entrar em contato comigo se estiver procurando um desenvolvedor, tiver alguma dúvida ou simplesmente quiser se conectar.",
       email: "ricardo.br.pi@gmail.com",
-      phone: "+55 86988278942",
+      phone: "+55 (86) 9 8827-8942",
     }
   },
 }
