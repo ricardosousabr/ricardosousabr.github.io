@@ -3,6 +3,7 @@
 exports[`Link renders correctly 1`] = `
 <div
   className="styles__Wrapper-sc-mg6ojk-0 jCBYfC"
+  id="contatos"
 >
   <div
     className="styles__ContainerStyle-sc-f8jz92-0 epgcrw"
@@ -17,7 +18,7 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxTitle-sc-mg6ojk-4 csa-df"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
+            className="styles__TextStyle-sc-1u5rut5-0 bmNqMK"
             color="white"
             fontSize="20px"
           >
@@ -26,7 +27,7 @@ exports[`Link renders correctly 1`] = `
         </div>
         <div>
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -41,7 +42,7 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxContac-sc-mg6ojk-5 cVGpFr"
         >
           <div
-            className="styles__BoxItem-sc-mg6ojk-6 eWDNWb"
+            className="styles__BoxItem-sc-mg6ojk-6 kjmMo"
           >
             <div>
               <svg
@@ -69,28 +70,16 @@ exports[`Link renders correctly 1`] = `
             </div>
             <div>
               <a
-                background="transparent"
-                border="none"
-                borderRadius="0px"
-                className="styles__ButtonStyle-sc-gh3tqj-0 jTHDxp"
-                color="white"
-                fontSize="16px"
+                className="styles__LinkContact-sc-mg6ojk-7 eTdTXt"
                 href="mailto:ricardo.br.pi@gmail.com"
-                padding="0px"
-                textDecoration="none"
               >
                 ricardo.br.pi@gmail.com
               </a>
             </div>
             <div>
               <button
-                background="transparent"
-                border="none"
-                borderRadius="0px"
-                className="styles__ButtonStyle-sc-gh3tqj-0 SJEwX"
-                color=""
+                className="styles__ButtonCopy-sc-mg6ojk-8 cPcqWV"
                 onClick={[Function]}
-                padding="0px"
                 type="button"
               >
                 <svg
@@ -119,7 +108,7 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="styles__BoxItem-sc-mg6ojk-6 eWDNWb"
+            className="styles__BoxItem-sc-mg6ojk-6 kjmMo"
           >
             <div>
               <svg
@@ -140,28 +129,16 @@ exports[`Link renders correctly 1`] = `
             </div>
             <div>
               <a
-                background="transparent"
-                border="none"
-                borderRadius="0px"
-                className="styles__ButtonStyle-sc-gh3tqj-0 jTHDxp"
-                color="white"
-                fontSize="16px"
+                className="styles__LinkContact-sc-mg6ojk-7 eTdTXt"
                 href="tel:+5586988278942"
-                padding="0px"
-                textDecoration="none"
               >
-                +55 86988278942
+                +55 (86) 9 8827-8942
               </a>
             </div>
             <div>
               <button
-                background="transparent"
-                border="none"
-                borderRadius="0px"
-                className="styles__ButtonStyle-sc-gh3tqj-0 SJEwX"
-                color=""
+                className="styles__ButtonCopy-sc-mg6ojk-8 cPcqWV"
                 onClick={[Function]}
-                padding="0px"
                 type="button"
               >
                 <svg
