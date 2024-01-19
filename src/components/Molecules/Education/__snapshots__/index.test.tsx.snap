@@ -17,7 +17,7 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxTitle-sc-fknpiw-3 TYFoq"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
+            className="styles__TextStyle-sc-1u5rut5-0 bmNqMK"
             color="white"
             fontSize="20px"
           >
@@ -26,7 +26,7 @@ exports[`Link renders correctly 1`] = `
         </div>
         <div>
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+            className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
             color="white"
             fontSize="16px"
           >
@@ -38,21 +38,21 @@ exports[`Link renders correctly 1`] = `
         className="styles__BoxTextInformation-sc-fknpiw-4 gRTDFf"
       >
         <p
-          className="styles__TextStyle-sc-1u5rut5-0 TnBdo"
+          className="styles__TextStyle-sc-1u5rut5-0 gMEIwr"
           color="#66BEF5"
           fontSize="16px"
         >
           Uninassau
         </p>
         <p
-          className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+          className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
           color="white"
           fontSize="16px"
         >
           Analise e desenvolvimento de sistemas
         </p>
         <p
-          className="styles__TextStyle-sc-1u5rut5-0 fGFJkY"
+          className="styles__TextStyle-sc-1u5rut5-0 hHFtEr"
           color="white"
           fontSize="16px"
         >

@@ -14,7 +14,7 @@ exports[`Link renders correctly 1`] = `
         className="styles__BoxText-sc-1knqim6-2 bmwaBB"
       >
         <p
-          className="styles__TextStyle-sc-1u5rut5-0 fGFLDB"
+          className="styles__TextStyle-sc-1u5rut5-0 bmNqMK"
           color="white"
           fontSize="20px"
         >
@@ -28,18 +28,18 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+            className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
           >
-            Eu gosto mais do inverno do que do verão
+            Gosto mais do inverno do que do verão
           </p>
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+            className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -50,29 +50,29 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+            className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
           >
-            Eu gosto de pizza e batata
+            Minha comida preferida é pizza e batata frita
           </p>
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+            className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
           >
-            Gosto muito de viajar
+            Meu maior sonho é de viajar pelo mundo todo
           </p>
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+            className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
           >
@@ -83,7 +83,7 @@ exports[`Link renders correctly 1`] = `
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
         >
           <p
-            className="styles__TextStyle-sc-1u5rut5-0 RefoX"
+            className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
           >
