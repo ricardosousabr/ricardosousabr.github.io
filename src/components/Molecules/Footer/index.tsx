@@ -1,6 +1,6 @@
-import Button from "../../Atoms/Button";
 import Text from "../../Atoms/Text";
 import Container from "../../Atoms/Container";
+import Title from "../../Atoms/Title";
 import { IFooterProps } from "./types"
 import { Wrapper, FooterStyle, BoxText, BoxInformation, BoxTitle, BoxContac, BoxItem, LinkContact, ButtonCopy } from "./styles";
 import copy from 'copy-to-clipboard';
@@ -48,7 +48,7 @@ export default function Footer({ title, subtitle, email, phone }: IFooterProps) 
         <FooterStyle>
           <BoxText>
             <BoxTitle>
-              <Text color="white" fontSize="20px">{ title }</Text>
+              <Title>{ title }</Title>
             </BoxTitle>
             <div>
               <Text color="white" fontSize="16px">{ subtitle }</Text>

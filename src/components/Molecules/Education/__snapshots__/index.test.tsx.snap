@@ -16,13 +16,11 @@ exports[`Link renders correctly 1`] = `
         <div
           className="styles__BoxTitle-sc-fknpiw-3 TYFoq"
         >
-          <p
-            className="styles__TextStyle-sc-1u5rut5-0 bmNqMK"
-            color="white"
-            fontSize="20px"
+          <h2
+            className="styles__TextStyle-sc-mjcf9p-0 hEVqIA"
           >
             Educação
-          </p>
+          </h2>
         </div>
         <div>
           <p
