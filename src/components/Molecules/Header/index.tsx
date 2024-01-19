@@ -25,7 +25,7 @@ export default function Header({title, subtitle, motovationalPhrase, image }: IH
                 </div>
               </BoxText>
               <BoxButton>
-                <Button href="" background="transparent" padding="8px 16px" borderRadius="0px" color="white" border="1px solid #bb74ce" fontSize="16px" textDecoration="none">
+                <Button href="#contatos">
                   Contate-me!!
                 </Button>
               </BoxButton>
