@@ -4,11 +4,40 @@ import Facts from "../src/components/Molecules/Facts";
 import Education from "../src/components/Molecules/Education";
 import Project from "../src/components/Molecules/Project";
 import Footer from "../src/components/Molecules/Footer";
-import locale from "@/src/locales";
+import locale from "../src/locales";
 import { NextSeo } from 'next-seo';
 
-export default function Home() {
-  const { header, skills, facts, education, project, footer } = locale["pt-br"];
+export async function getStaticPaths() {
+  const paths = [
+    {
+      params: {lang: "pt-br"}
+    },
+    {
+      params: {lang: "en-us"}
+    }
+
+  ]
+
+  return {
+    paths,
+    fallback: false,
+  }
+}
+
+export async function getStaticProps(context: any) {
+
+  return {
+    props: {
+      lang: context.params.lang || 'pt-br'
+    },
+  };
+}
+
+type Lang = "pt-br" | "en-us";
+
+export default function Home({ lang }: { lang: Lang }) {
+
+  const { header, skills, facts, education, project, footer } = locale[lang as Lang];
 
   return (
     <>
