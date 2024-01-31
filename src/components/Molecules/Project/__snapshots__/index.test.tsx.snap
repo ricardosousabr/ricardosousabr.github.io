@@ -88,7 +88,7 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="styles__BoxTechnologies-sc-g6kygc-5 jnHOSo"
+            className="styles__BoxTechnologies-sc-g6kygc-5 gSPyQG"
           >
             <div
               className="styles__BoxTechnologie-sc-g6kygc-6 jedylb"
@@ -198,7 +198,7 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="styles__BoxTechnologies-sc-g6kygc-5 jnHOSo"
+            className="styles__BoxTechnologies-sc-g6kygc-5 gSPyQG"
           >
             <div
               className="styles__BoxTechnologie-sc-g6kygc-6 jedylb"
@@ -308,7 +308,7 @@ exports[`Link renders correctly 1`] = `
             </div>
           </div>
           <div
-            className="styles__BoxTechnologies-sc-g6kygc-5 jnHOSo"
+            className="styles__BoxTechnologies-sc-g6kygc-5 gSPyQG"
           >
             <div
               className="styles__BoxTechnologie-sc-g6kygc-6 jedylb"
