@@ -3,13 +3,38 @@ import Button from "../../Atoms/Button";
 import Container from "../../Atoms/Container";
 import Image from "next/image";
 import { IHeaderProps } from "./types";
-import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxProfile, BoxText, BoxButton, BoxMessage, BoxImage } from "./styles";
+import { Wrapper, HeaderStyle, BoxTitle, BoxInformation, BoxProfile, BoxText, BoxButton, BoxMessage, BoxImage, BoxSwitch, Switch, SwitchSpan } from "./styles";
+import { FlagBrazil, FlagUS } from '@gympass/yoga-icons';
+import { useState } from "react";
+import { useRouter } from "next/router";
 
-export default function Header({title, subtitle, motovationalPhrase, image }: IHeaderProps ) {
+export default function Header({ title, subtitle, motovationalPhrase, image }: IHeaderProps) {
+
+  const [languageSelector, setLanguageSelector] = useState<boolean>(false);
+  const router = useRouter();
+
+  function controlSwitch() {
+    setLanguageSelector(!languageSelector)
+    if (languageSelector) {
+      router.push("/pt-br")
+    } else {
+      router.push("/en-us")
+    }
+
+  }
 
   return (
     <Wrapper>
       <Container>
+        <BoxSwitch>
+          <Switch enabled={languageSelector} onClick={controlSwitch}>
+            <SwitchSpan enabled={languageSelector}>
+              {
+                languageSelector ? <FlagUS width={30} height={30} /> : <FlagBrazil width={30} height={30} />
+              }
+            </SwitchSpan>
+          </Switch>
+        </BoxSwitch>
         <HeaderStyle>
           <BoxInformation>
             <BoxImage>
