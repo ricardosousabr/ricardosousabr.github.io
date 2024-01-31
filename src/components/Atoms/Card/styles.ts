@@ -52,6 +52,7 @@ export const BoxTechnologies = styled.div`
 
   @media (min-width: ${screensYoga.breakpointMD}) {
     max-width: 350px;
+    margin-bottom: 30px;
   }
 
 `
