@@ -90,5 +90,5 @@ export const SwitchSpan = styled.span<{enabled: boolean}>`
   background: transparent;
   margin: 5px;
   transition-duration: 0.4s;
-  translate: ${props => props.enabled ? "0px" : "40px"};
+  /* translate: ${props => props.enabled ? "0px" : "40px"}; */
 `
