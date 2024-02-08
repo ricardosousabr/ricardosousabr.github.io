@@ -5,7 +5,7 @@ import Card from "../../Atoms/Card";
 import { IProjectProps } from "./types";
 import { Wrapper, ProjectStyle, BoxProjects, BoxImage, BoxImageMobile, BoxImageDesktop, BoxTitle, Title, BoxText, BoxTechnologies, BoxTechnologie, BoxButton } from "./styles";
 
-export default function Project({ title, subtitle, projectsCreated }:IProjectProps) {
+export default function Project({ title, subtitle, button, projectsCreated }:IProjectProps) {
   return (
     <Wrapper>
       <Container>
@@ -30,7 +30,7 @@ export default function Project({ title, subtitle, projectsCreated }:IProjectPro
           </BoxProjects>
           <BoxButton>
             <Button href="https://github.com/ricardosousabr">
-              Ver mais
+              { button }
             </Button>
           </BoxButton>
         </ProjectStyle>

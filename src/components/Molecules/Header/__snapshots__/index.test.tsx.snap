@@ -183,7 +183,7 @@ exports[`Link renders correctly 1`] = `
               className="styles__ButtonStyle-sc-gh3tqj-0 fdlOGi"
               href="#contatos"
             >
-              Contate-me!!
+              Entre em contato!!
             </a>
           </div>
         </div>

@@ -3,5 +3,6 @@ export interface IHeaderProps {
   subtitle: string;
   motovationalPhrase: string;
   image: string;
+  button: string
 
 }
