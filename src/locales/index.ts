@@ -5,6 +5,7 @@ const locale = {
       subtitle: "Crio sites responsivos onde a tecnologia encontra a criatividade",
       motovationalPhrase: "“O importante é não parar de questionar; a curiosidade tem sua própria razão de existir” - Albert Einstein",
       image: "/img/Profile.png",
+      button: "Entre em contato!!"
     },
     skills: {
       title: "Habilidades",
@@ -93,6 +94,7 @@ const locale = {
     project: {
       title: "Projetos",
       subtitle: "Veja alguns dos meus projetos",
+      button: "Ver mais",
       projectsCreated: [
         {
           name: "Login page next",
@@ -132,6 +134,7 @@ const locale = {
       subtitle: "I create responsive websites where technology meets creativity",
       motovationalPhrase: "“The important thing is not to stop questioning; Curiosity has its own reason for existing” - Albert Einstein",
       image: "/img/Profile.png",
+      button: "Contate-me!!"
     },
     skills: {
       title: "Skills",
@@ -220,6 +223,7 @@ const locale = {
     project: {
       title: "Projects",
       subtitle: "See some of my projects",
+      button: "View more",
       projectsCreated: [
         {
           name: "Login page next",

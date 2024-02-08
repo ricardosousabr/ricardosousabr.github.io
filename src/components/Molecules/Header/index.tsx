@@ -8,7 +8,7 @@ import { FlagBrazil, FlagUS } from '@gympass/yoga-icons';
 import { useState } from "react";
 import { useRouter } from "next/router";
 
-export default function Header({ title, subtitle, motovationalPhrase, image }: IHeaderProps) {
+export default function Header({ title, subtitle, motovationalPhrase, image, button }: IHeaderProps) {
 
   const [languageSelector, setLanguageSelector] = useState<boolean>(true);
   const router = useRouter();
@@ -66,7 +66,7 @@ export default function Header({ title, subtitle, motovationalPhrase, image }: I
               </BoxText>
               <BoxButton>
                 <Button href="#contatos">
-                  Contate-me!!
+                  { button }
                 </Button>
               </BoxButton>
             </BoxProfile>
