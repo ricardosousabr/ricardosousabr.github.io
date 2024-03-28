@@ -5,7 +5,7 @@ import Card from "../../Atoms/Card";
 import { IProjectProps } from "./types";
 import { Wrapper, ProjectStyle, BoxProjects, BoxImage, BoxImageMobile, BoxImageDesktop, BoxTitle, Title, BoxText, BoxTechnologies, BoxTechnologie, BoxButton } from "./styles";
 
-export default function Project({ title, subtitle, button, projectsCreated }:IProjectProps) {
+export default function Project({ title, subtitle, button, Projects }:IProjectProps) {
   return (
     <Wrapper>
       <Container>
@@ -20,10 +20,9 @@ export default function Project({ title, subtitle, button, projectsCreated }:IPr
           </BoxTitle>
           <BoxProjects>
             {
-              projectsCreated.map((project, index) => {
-
+              Projects.map((project, index) => {
                 return (
-                  <Card key={index} link={project.link} srcImageMobile={project.srcMobile} srcImageDesktop={project.srcDesktop} title={project.name} texts={project.technologies} />
+                  <Card key={index} link={project.link} srcImageMobile={project.srcMobile} srcImageDesktop={project.srcDesktop} title={project.name} texts={project.ProjectTechnologie} />
                 )
               })
             }

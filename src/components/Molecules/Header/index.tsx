@@ -12,6 +12,13 @@ export default function Header({ title, subtitle, motovationalPhrase, image, but
 
   const [languageSelector, setLanguageSelector] = useState<boolean>(true);
   const router = useRouter();
+  const [apiData, setApidata] = useState({});
+
+  async function getData() {
+    const response = await fetch("http://localhost:1337/api/seo");
+    const data = await response.json();
+    setApidata(data)
+  }
 
   function controlSwitch() {
     setLanguageSelector(!languageSelector)
@@ -22,6 +29,8 @@ export default function Header({ title, subtitle, motovationalPhrase, image, but
     }
   }
 
+  //getData()
+  //console.log(apiData)
   return (
     <Wrapper>
       <Container>

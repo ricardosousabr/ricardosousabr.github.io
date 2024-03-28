@@ -5,7 +5,7 @@ import Container from "../../Atoms/Container";
 import { Wrapper, SkillStyle, BoxText, BoxTitle, BoxSkillSItems, BoxSkill } from "./styles";
 import { skillsProps, } from "./types";
 
-export default function Skills({ title, subtitle, technologies }: skillsProps) {
+export default function Skills({ title, subtitle, Technologie }: skillsProps) {
 
   return (
     <Wrapper>
@@ -21,11 +21,11 @@ export default function Skills({ title, subtitle, technologies }: skillsProps) {
           </BoxText>
           <BoxSkillSItems>
             {
-              technologies.map((technologie, index) => {
+              Technologie.map((Technologie, index) => {
                 return (
                   <BoxSkill key={index}>
-                    <Image width={40} height={40} src={technologie.src} alt="" />
-                    <Text color="white" fontSize="16px">{technologie.name}</Text>
+                    <Image width={40} height={40} src={Technologie.src} alt="" />
+                    <Text color="white" fontSize="16px">{Technologie.name}</Text>
                   </BoxSkill>
                 )
               })

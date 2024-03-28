@@ -29,9 +29,7 @@ exports[`Link renders correctly 1`] = `
             className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
-          >
-            Gosto mais do inverno do que do verão
-          </p>
+          />
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
@@ -40,9 +38,7 @@ exports[`Link renders correctly 1`] = `
             className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
-          >
-            Costumo jogar com meus amigos
-          </p>
+          />
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
@@ -51,9 +47,7 @@ exports[`Link renders correctly 1`] = `
             className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
-          >
-            Minha comida preferida é pizza e batata frita
-          </p>
+          />
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
@@ -62,9 +56,7 @@ exports[`Link renders correctly 1`] = `
             className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
-          >
-            Meu maior sonho é de viajar pelo mundo todo
-          </p>
+          />
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
@@ -73,9 +65,7 @@ exports[`Link renders correctly 1`] = `
             className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
-          >
-            Amo estudar
-          </p>
+          />
         </div>
         <div
           className="styles__BoxFact-sc-1knqim6-4 bqUag"
@@ -84,9 +74,7 @@ exports[`Link renders correctly 1`] = `
             className="styles__TextStyle-sc-1u5rut5-0 coQOGk"
             color="#ABB2BF"
             fontSize="16px"
-          >
-            Apaixonado por leitura
-          </p>
+          />
         </div>
       </div>
     </div>

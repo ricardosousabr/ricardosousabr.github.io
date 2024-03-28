@@ -11,7 +11,7 @@ exports[`Link renders correctly 1`] = `
       className="styles__BoxSwitch-sc-1gkpokt-9 exXtuO"
     >
       <div
-        className="styles__Switch-sc-1gkpokt-10 dqgcfM"
+        className="styles__Switch-sc-1gkpokt-10 gIbBrw"
         enabled={true}
         onClick={[Function]}
       >

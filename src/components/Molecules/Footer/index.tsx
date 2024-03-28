@@ -6,9 +6,19 @@ import { Wrapper, FooterStyle, BoxText, BoxInformation, BoxTitle, BoxContac, Box
 import copy from 'copy-to-clipboard';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import { useEffect } from "react";
 
 
 export default function Footer({ title, subtitle, email, phone }: IFooterProps) {
+
+  useEffect(() => {
+    const options = {method: 'GET', headers: {'User-Agent': 'insomnia/8.2.0'}};
+
+  fetch('http://localhost:1337/api/footer', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+  });
 
   function handleButton(information: string) {
     copyText( information)

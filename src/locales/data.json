@@ -1,0 +1,253 @@
+{
+  "seo": {
+    "id": 1,
+    "title": "Meu Portfolio - Ricardo",
+    "description": "Olá meu nome é Ricardo sou um desenvolvedor front-end, crio sites responsivos onde a tecnologia encontra a criatividade",
+    "OpenGraph": [
+      {
+        "id": 1,
+        "type": "website",
+        "url": "https://ricardosousabr.github.io/",
+        "title": "Acesse o link para conhecer sobre mim",
+        "description": "Olá meu nome é Ricardo sou um desenvolvedor front-end, crio sites responsivos onde a tecnologia encontra a criatividade",
+        "siteName": "Portfolio - Ricardo",
+        "image": [
+          {
+            "id": 1,
+            "url": "../public/img/Profile-SEO.png",
+            "width": "800",
+            "height": "600",
+            "alt": "Profile SEO",
+            "type": "image/png"
+          }
+        ]
+      }
+    ],
+    "additionalLinkTags": [
+      {
+        "id": 1,
+        "rel": "icon",
+        "href": "/icon/favicon.ico",
+        "as": null,
+        "type": null
+      },
+      {
+        "id": 2,
+        "rel": "preload",
+        "href": "https://fonts.googleapis.com/css2?family=Fira+Code&family=Oswald&family=Preahvihear&family=Roboto&display=swap",
+        "as": "font",
+        "type": "font/woff2"
+      }
+    ]
+  },
+  "header": {
+    "id": 1,
+    "title": "Olá meu nome é Ricardo sou um desenvolvedor front-end",
+    "subtitle": "Crio sites responsivos onde a tecnologia encontra a criatividade",
+    "motovationalPhrase": "“O importante é não parar de questionar; a curiosidade tem sua própria razão de existir” - Albert Einstein",
+    "image": "/img/Profile.png",
+    "button": "Entre em contato!!"
+  },
+  "skill": {
+    "id": 1,
+    "title": "Habilidades",
+    "subtitle": "As habilidades, ferramentas e tecnologias nas quais sou bom:",
+    "Technologie": [
+      {
+        "id": 1,
+        "name": "Next.js",
+        "src": "/img/Next.js.png"
+      },
+      {
+        "id": 2,
+        "name": "React.js",
+        "src": "/img/React.js.png"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript",
+        "src": "/img/JavaScript.png"
+      },
+      {
+        "id": 4,
+        "name": "Storybook",
+        "src": "/img/Storybook.png"
+      },
+      {
+        "id": 5,
+        "name": "Firebase",
+        "src": "/img/Firebase.png"
+      },
+      {
+        "id": 6,
+        "name": "Styled-components",
+        "src": "/img/Styled-components.png"
+      },
+      {
+        "id": 7,
+        "name": "HTML",
+        "src": "/img/HTML.png"
+      },
+      {
+        "id": 8,
+        "name": "CSS",
+        "src": "/img/CSS.png"
+      },
+      {
+        "id": 9,
+        "name": "Jest",
+        "src": "/img/Jest.png"
+      },
+      {
+        "id": 10,
+        "name": "SASS",
+        "src": "/img/SASS.png"
+      },
+      {
+        "id": 11,
+        "name": "Cypress.io",
+        "src": "/img/Cypress.io.png"
+      },
+      {
+        "id": 12,
+        "name": "Bootstrap",
+        "src": "/img/Bootstrap.png"
+      },
+      {
+        "id": 13,
+        "name": "JQuery",
+        "src": "/img/JQuery.png"
+      },
+      {
+        "id": 14,
+        "name": "Prettier",
+        "src": "/img/Prettier.png"
+      },
+      {
+        "id": 15,
+        "name": "ESLint",
+        "src": "/img/ESLint.png"
+      }
+    ]
+  },
+  "fact": {
+    "id": 1,
+    "title": "Minhas curiosidades",
+    "factsAbout": [
+      {
+        "id": 1,
+        "fact": "Gosto mais do inverno do que do verão"
+      },
+      {
+        "id": 2,
+        "fact": "Costumo jogar com meus amigos"
+      },
+      {
+        "id": 3,
+        "fact": "Minha comida preferida é pizza e batata frita"
+      },
+      {
+        "id": 4,
+        "fact": "Meu maior sonho é de viajar pelo mundo todo"
+      },
+      {
+        "id": 5,
+        "fact": "Amo estudar"
+      },
+      {
+        "id": 6,
+        "fact": "Apaixonado por leitura"
+      }
+    ]
+  },
+  "education": {
+    "id": 1,
+    "title": "Educação",
+    "subtitle": "Estas são minhas qualificações",
+    "faculty": "Uninassau",
+    "course": "Analise e desenvolvimento de sistemas",
+    "state": "Estado: Cursando"
+  },
+  "project": {
+    "id": 1,
+    "title": "Projetos",
+    "subtitle": "Veja alguns dos meus projetos",
+    "button": "Ver mais",
+    "Projects": [
+      {
+        "id": 1,
+        "name": "Login page next",
+        "link": "https://ricardosousabr.github.io/login-page-next/",
+        "srcMobile": "/img/Project-Login-Page-Mobile.png",
+        "srcDesktop": "/img/Project-Login-Page-Desktop.png",
+        "ProjectTechnologie": [
+          {
+            "id": 11,
+            "nameTechnologie": "JavaScript"
+          },
+          {
+            "id": 12,
+            "nameTechnologie": "Next"
+          },
+          {
+            "id": 13,
+            "nameTechnologie": "Styled-components"
+          },
+          {
+            "id": 14,
+            "nameTechnologie": "Jest"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Pokedex",
+        "link": "https://ricardosousabr.github.io/pokedex-react/",
+        "srcMobile": "/img/Project-Pokedex-Mobile.png",
+        "srcDesktop": "/img/Project-Pokedex-Desktop.png",
+        "ProjectTechnologie": [
+          {
+            "id": 15,
+            "nameTechnologie": "JavaScript"
+          },
+          {
+            "id": 16,
+            "nameTechnologie": "Next"
+          },
+          {
+            "id": 17,
+            "nameTechnologie": "Styled-components"
+          },
+          {
+            "id": 18,
+            "nameTechnologie": "Jest"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Storybook",
+        "link": "https://github.com/ricardosousabr/next-storybook",
+        "srcMobile": "/img/Project-Storybook-Mobile.png",
+        "srcDesktop": "/img/Project-Storybook-Desktop.png",
+        "ProjectTechnologie": [
+          {
+            "id": 19,
+            "nameTechnologie": "Storybook"
+          },
+          {
+            "id": 20,
+            "nameTechnologie": "Next"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "id": 1,
+    "title": "Entrar em contato",
+    "subtitle": "Qual é o próximo? Sinta-se à vontade para entrar em contato comigo se estiver procurando um desenvolvedor, tiver alguma dúvida ou simplesmente quiser se conectar.",
+    "email": "ricardo.br.pi@gmail.com",
+    "phone": "+55 (86) 9 8827-8942"
+  }
+}

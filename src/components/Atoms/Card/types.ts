@@ -2,6 +2,8 @@ export interface CardProps {
   link: string;
   srcImageMobile: string;
   srcImageDesktop: string;
-  texts: string[];
+  texts: {
+    nameTechnologie: string
+  }[];
   title: string;
 }

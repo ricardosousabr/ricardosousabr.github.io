@@ -1,7 +1,7 @@
 export interface skillsProps {
   title: string;
   subtitle: string;
-  technologies: {
+  Technologie: {
     name: string;
     src: string;
   }[];

@@ -5,40 +5,14 @@ import Education from "../src/components/Molecules/Education";
 import Project from "../src/components/Molecules/Project";
 import Footer from "../src/components/Molecules/Footer";
 import locale from "../src/locales";
+import jsonData from "../src/locales/data.json";
 import { NextSeo } from 'next-seo';
 import { ThemeProvider } from '@gympass/yoga';
 
-export async function getStaticPaths() {
-  const paths = [
-    {
-      params: {lang: "pt-br"}
-    },
-    {
-      params: {lang: "en-us"}
-    }
+export default function Home() {
+  const { header, skill, fact, education, project, footer } = jsonData;
 
-  ]
-
-  return {
-    paths,
-    fallback: false,
-  }
-}
-
-export async function getStaticProps(context: any) {
-
-  return {
-    props: {
-      lang: context.params.lang || 'pt-br'
-    },
-  };
-}
-
-type Lang = "pt-br" | "en-us";
-
-export default function Home({ lang }: { lang: Lang }) {
-
-  const { header, skills, facts, education, project, footer } = locale[lang as Lang];
+  console.log(jsonData)
 
   return (
     <>
@@ -61,7 +35,6 @@ export default function Home({ lang }: { lang: Lang }) {
               }
             ],
             siteName: 'Portfolio - Ricardo',
-
           }}
 
           additionalLinkTags={[
@@ -78,8 +51,8 @@ export default function Home({ lang }: { lang: Lang }) {
           ]}
         />
         <Header {...header} />
-        <Skills {...skills} />
-        <Facts {...facts} />
+        <Skills {...skill} />
+        <Facts {...fact} />
         <Education {...education} />
         <Project {...project} />
         <Footer {...footer} />

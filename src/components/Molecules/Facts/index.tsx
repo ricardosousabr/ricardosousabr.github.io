@@ -14,10 +14,10 @@ export default function Facts({title, factsAbout}: IFacts ) {
           </BoxText>
             <BoxFacts >
             {
-              factsAbout.map((fact, index) => {
+              factsAbout.map((facts, index) => {
                 return (
                   <BoxFact key={index}>
-                      <Text color="#ABB2BF" fontSize="16px" >{fact}</Text>
+                      <Text color="#ABB2BF" fontSize="16px" >{facts.fact}</Text>
                   </BoxFact>
                 )
               })

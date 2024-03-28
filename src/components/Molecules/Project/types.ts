@@ -2,11 +2,13 @@ export interface IProjectProps {
   title: string;
   subtitle: string;
   button: string;
-  projectsCreated: {
+  Projects: {
     name: string;
     link: string;
     srcMobile: string;
     srcDesktop: string;
-    technologies: string[];
+    ProjectTechnologie: {
+      nameTechnologie: string
+    }[];
   }[];
 }

@@ -1,7 +1,7 @@
 import { CardProps } from "./types";
 import Image from "next/image";
 import Text from "../Text";
-import { Project, BoxProjects, BoxImage, BoxImageMobile, BoxImageDesktop, BoxText, BoxTechnologies, BoxTechnologie } from "./styles";
+import { Project, BoxImage, BoxImageMobile, BoxImageDesktop, BoxText, BoxTechnologies, BoxTechnologie } from "./styles";
 
 export default function Card({ link, srcImageMobile, srcImageDesktop, title, texts }: CardProps) {
   return (
@@ -20,7 +20,7 @@ export default function Card({ link, srcImageMobile, srcImageDesktop, title, tex
 
             return (
               <BoxTechnologie key={index}>
-                <Text color="#ABB2BF" fontSize="16px">{text}</Text>
+                <Text color="#ABB2BF" fontSize="16px">{text.nameTechnologie}</Text>
               </BoxTechnologie>
             )
           })

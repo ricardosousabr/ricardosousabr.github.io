@@ -1,5 +1,37 @@
 const locale = {
   "pt-br": {
+    seo: {
+      title: "Meu Portfolio - Ricardo",
+      description: "Olá meu nome é Ricardo sou um desenvolvedor front-end, crio sites responsivos onde a tecnologia encontra a criatividade",
+      openGraph: {
+        type: "website",
+        url: "https://ricardosousabr.github.io/",
+        title: "Acesse o link para conhecer sobre mim",
+        description: "Olá meu nome é Ricardo sou um desenvolvedor front-end, crio sites responsivos onde a tecnologia encontra a criatividade",
+        images: [
+          {
+            url: "../public/img/Profile-SEO.png",
+            width: 800,
+            height: 600,
+            alt: 'Profile SEO',
+            type: 'image/png',
+          }
+        ],
+        siteName: 'Portfolio - Ricardo',
+      },
+      additionalLinkTags: [
+            {
+              rel: 'icon',
+              href: '/icon/favicon.ico',
+            },
+            {
+              rel: 'preload',
+              href: 'https://fonts.googleapis.com/css2?family=Fira+Code&family=Oswald&family=Preahvihear&family=Roboto&display=swap',
+              as: 'font',
+              type: 'font/woff2',
+            },
+        ]
+    },
     header: {
       title: "Olá meu nome é Ricardo sou um desenvolvedor front-end",
       subtitle: "Crio sites responsivos onde a tecnologia encontra a criatividade",

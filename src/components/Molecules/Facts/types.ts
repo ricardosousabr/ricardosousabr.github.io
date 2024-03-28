@@ -1,4 +1,7 @@
 export interface IFacts {
   title: string;
-  factsAbout: String[];
+  factsAbout: {
+    id: number;
+    fact: string;
+  }[];
 }

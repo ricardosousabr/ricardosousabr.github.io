@@ -81,6 +81,7 @@ export const Switch = styled.div<{enabled: boolean}>`
   border-radius: 20px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 
   `
 export const SwitchSpan = styled.span<{enabled: boolean}>`
